@@ -1,0 +1,12 @@
+{
+  "name": "obsidian-framer-automation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "framer:capture-session": "node skills/obsidian-framer-browser-sync/scripts/capture_framer_session.mjs",
+    "framer:fill-catalog": "node skills/obsidian-framer-browser-sync/scripts/fill_framer_catalog.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.53.2"
+  }
+}

@@ -1,0 +1,4 @@
+schema_version: "v1"
+display_name: "Obsidian -> Framer Browser Sync"
+short_description: "Automates Framer content entry through an authenticated browser session."
+default_prompt: "Use a saved Framer session and push prepared Obsidian content into the target collection."

@@ -1,0 +1,52 @@
+{
+  "openCollection": {
+    "type": "role",
+    "role": "link",
+    "name": "Catalog"
+  },
+  "newItemButton": {
+    "type": "role",
+    "role": "button",
+    "name": "New"
+  },
+  "saveButton": {
+    "type": "role",
+    "role": "button",
+    "name": "Save"
+  },
+  "publishButton": {
+    "type": "role",
+    "role": "button",
+    "name": "Publish"
+  },
+  "fields": {
+    "title": {
+      "type": "label",
+      "value": "Title"
+    },
+    "slug": {
+      "type": "label",
+      "value": "Slug"
+    },
+    "description": {
+      "type": "label",
+      "value": "Description"
+    },
+    "category": {
+      "type": "label",
+      "value": "Category"
+    },
+    "tags": {
+      "type": "label",
+      "value": "Tags"
+    },
+    "cover_image": {
+      "type": "label",
+      "value": "Cover Image"
+    },
+    "body": {
+      "type": "label",
+      "value": "Body"
+    }
+  }
+}

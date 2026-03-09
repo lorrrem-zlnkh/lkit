@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+.auth/
+
+# Generated artifacts
+output/
+
+# Keep local screenshots and logs out of git by default
+*.log
