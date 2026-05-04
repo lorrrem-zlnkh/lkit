@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lkit</title>
+    <meta
+      name="description"
+      content="Тёмный каталог приложений с рубрикатором, фильтрами и краткими описаниями."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-layout">
+      <aside class="sidebar">
+        <a class="sidebar-brand" href="./index.html" aria-label="Lkit home">
+          <span class="sidebar-brand-mark">L</span>
+          <span class="sidebar-brand-copy">
+            <strong>Lkit</strong>
+          </span>
+        </a>
+
+        <nav class="rubric-nav" id="rubric-nav" aria-label="Рубрикатор"></nav>
+      </aside>
+
+      <main class="content">
+        <header class="content-topbar">
+          <section class="filters">
+            <label class="control control-search">
+              <span class="search-icon" aria-hidden="true">🔎</span>
+              <input id="search-input" type="search" placeholder="Поиск" />
+            </label>
+          </section>
+
+          <nav class="subcategory-tabs" id="subcategory-tabs" aria-label="Подкатегории"></nav>
+        </header>
+
+        <section class="catalog-grid" id="catalog-grid"></section>
+      </main>
+    </div>
+
+    <template id="card-template">
+      <a class="resource-card" target="_blank" rel="noreferrer">
+        <img class="card-cover" alt="" hidden />
+        <span class="emoji-badge"></span>
+        <h2 class="card-title"></h2>
+        <p class="card-meta" hidden></p>
+        <p class="card-description"></p>
+      </a>
+    </template>
+
+    <script src="./weekly-data.js"></script>
+    <script src="./catalog-data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

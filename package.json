@@ -4,7 +4,11 @@
   "type": "module",
   "scripts": {
     "framer:capture-session": "node skills/obsidian-framer-browser-sync/scripts/capture_framer_session.mjs",
-    "framer:fill-catalog": "node skills/obsidian-framer-browser-sync/scripts/fill_framer_catalog.mjs"
+    "framer:fill-catalog": "node skills/obsidian-framer-browser-sync/scripts/fill_framer_catalog.mjs",
+    "catalog:build-data": "node scripts/export_catalog_site_data.mjs",
+    "weekly:build": "node scripts/build_weekly_cases.mjs",
+    "weekly:collect": "node scripts/collect_weekly_cases.mjs",
+    "weekly:export": "node scripts/export_weekly_site_data.mjs"
   },
   "dependencies": {
     "playwright": "^1.53.2"
