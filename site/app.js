@@ -1,7 +1,7 @@
-const data = [...(window.WEEKLY_DATA || []), ...(window.CATALOG_DATA || [])];
+const data = window.CATALOG_DATA || [];
 
 const ALL_LABEL = "Все";
-const DEFAULT_RUBRIC = "Викли";
+const DEFAULT_RUBRIC = "Инструменты";
 
 const searchInput = document.querySelector("#search-input");
 const grid = document.querySelector("#catalog-grid");
@@ -13,7 +13,6 @@ const collator = new Intl.Collator("ru");
 let activeRubric = DEFAULT_RUBRIC;
 let activeSubrubric = "";
 const rubricOrder = [
-  "Викли",
   "Инструменты",
   "ИИ",
   "Ресурсы",
@@ -391,21 +390,6 @@ function getBaseItems() {
   return getRubricItems();
 }
 
-function interleaveWeekly(items) {
-  const groups = {
-    "UX/UI": items.filter((item) => item.Subrubric === "UX/UI"),
-    "Брендинг": items.filter((item) => item.Subrubric === "Брендинг"),
-  };
-  const result = [];
-
-  while (groups["UX/UI"].length || groups["Брендинг"].length) {
-    if (groups["UX/UI"].length) result.push(groups["UX/UI"].shift());
-    if (groups["Брендинг"].length) result.push(groups["Брендинг"].shift());
-  }
-
-  return result;
-}
-
 function renderSubrubricTabs() {
   const searchMode = isSearchMode();
   const items = scoreItems(getBaseItems(), searchInput.value.trim()).map(({ item }) => item);
@@ -415,17 +399,6 @@ function renderSubrubricTabs() {
     return acc;
   }, {});
   let values = uniqueSorted(items.map((item) => item[key]));
-
-  if (!searchMode && activeRubric === "Викли") {
-    const weeklyOrder = ["UX/UI", "Брендинг"];
-    if (!values.length) {
-      values = weeklyOrder;
-    }
-    values = [
-      ...weeklyOrder.filter((value) => values.includes(value)),
-      ...values.filter((value) => !weeklyOrder.includes(value)),
-    ];
-  }
 
   subcategoryTabs.innerHTML = "";
 
@@ -460,15 +433,9 @@ function filterItems() {
   const query = searchInput.value.trim();
   const searchMode = isSearchMode();
   const key = searchMode ? "Rubric" : "Subrubric";
-  let items = scoreItems(getBaseItems(), query)
+  return scoreItems(getBaseItems(), query)
     .map(({ item }) => item)
     .filter((item) => !activeSubrubric || item[key] === activeSubrubric);
-
-  if (activeRubric === "Викли" && !activeSubrubric && !searchMode) {
-    items = interleaveWeekly(items);
-  }
-
-  return items;
 }
 
 function createCard(item) {
@@ -477,36 +444,13 @@ function createCard(item) {
   const cover = node.querySelector(".card-cover");
   const emoji = node.querySelector(".emoji-badge");
   const meta = node.querySelector(".card-meta");
-  const isWeekly = item.Rubric === "Викли";
-  node.dataset.weekly = isWeekly ? "true" : "false";
 
-  if (
-    isWeekly &&
-    item.Screenshot &&
-    (item.ScreenshotSource === "local" || item.ScreenshotSource === "remote")
-  ) {
-    cover.src = item.Screenshot;
-    cover.alt = item.Resource;
-    cover.hidden = false;
-    emoji.hidden = true;
-  } else {
-    cover.hidden = true;
-    emoji.hidden = false;
-    emoji.textContent = emojiForItem(item);
-  }
+  cover.hidden = true;
+  emoji.hidden = false;
+  emoji.textContent = emojiForItem(item);
 
   node.querySelector(".card-title").textContent = item.Resource;
-  if (isWeekly) {
-    const metaParts = [item.Author, item.Subrubric].filter(Boolean);
-    if (metaParts.length) {
-      meta.textContent = metaParts.join(" · ");
-      meta.hidden = false;
-    } else {
-      meta.hidden = true;
-    }
-  } else {
-    meta.hidden = true;
-  }
+  meta.hidden = true;
   node.querySelector(".card-description").textContent = item.Description || "Описание пока не заполнено.";
   return node;
 }
@@ -515,54 +459,12 @@ function renderGrid(items) {
   grid.innerHTML = "";
 
   if (!items.length) {
-    if (activeRubric === "Викли" && !isSearchMode()) {
-      grid.innerHTML = `<div class="empty-state">Раздел готов. Сюда будут добавляться только валидные weekly-кейсы с прямыми ссылками и реальными обложками. Фильтры: UX/UI и Брендинг.</div>`;
-      return;
-    }
     grid.innerHTML = `<div class="empty-state">Ничего не нашлось в разделе. Попробуй другой запрос или категорию.</div>`;
     return;
   }
 
   const fragment = document.createDocumentFragment();
-  if (activeRubric === "Викли" && !isSearchMode()) {
-    const weeklyInformer = document.createElement("div");
-    weeklyInformer.className = "weekly-informer";
-    weeklyInformer.textContent =
-      "✨ Это «Викли» — кейсы для вдохновения, собранные за неделю. Каждую неделю новые кейсы.";
-    fragment.append(weeklyInformer);
-  }
   items.forEach((item) => fragment.append(createCard(item)));
-  if (activeRubric === "Викли" && !isSearchMode()) {
-    const socialBlock = document.createElement("div");
-    socialBlock.className = "weekly-socials";
-
-    const socialText = document.createElement("p");
-    socialText.textContent =
-      "Больше вдохновения и контента о дизайне привычных вещей в наших соцсетях";
-
-    const socialLinks = document.createElement("div");
-    socialLinks.className = "weekly-social-links";
-
-    [
-      ["☎️ Телеграм", "https://t.me/lorrrem", "Телеграм"],
-      ["👮 Макс", "https://max.ru/join/9vg5nr98tzRfylYt2ZjnMk3bE8cfe3hrQwdNHfiTDq0", "Макс"],
-      ["💻 ВК", "https://vk.com/lorrrem", "ВК"],
-    ].forEach(([label, href, ariaLabel]) => {
-      const link = document.createElement("a");
-      link.href = href;
-      link.textContent = label;
-      link.target = href === "#" ? "_self" : "_blank";
-      link.rel = href === "#" ? "" : "noreferrer";
-      link.setAttribute(
-        "aria-label",
-        href === "#" ? `${ariaLabel}: ссылка будет добавлена` : ariaLabel
-      );
-      socialLinks.append(link);
-    });
-
-    socialBlock.append(socialText, socialLinks);
-    fragment.append(socialBlock);
-  }
   grid.append(fragment);
 }
 
