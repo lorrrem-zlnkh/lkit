@@ -139,6 +139,18 @@ select {
   font: 500 11px/1.55 var(--mono);
 }
 
+.sidebar-copyright-link {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--line-strong);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.sidebar-copyright-link:hover {
+  color: #7dd3fc;
+  border-color: #7dd3fc;
+}
+
 .rubric-button {
   width: 100%;
   display: flex;
@@ -358,12 +370,21 @@ select {
 .rubric-button--blog {
   margin-top: 8px;
   text-decoration: none;
+  justify-content: flex-start;
+  gap: 12px;
 }
 
-.rubric-button--blog span {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
+.rubric-button-icon {
+  flex: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--line);
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+  font-size: 16px;
 }
 
 .dict-view {
