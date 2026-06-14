@@ -41,6 +41,12 @@ body {
     linear-gradient(180deg, #090b0e, #0b0d10 100%);
 }
 
+body.dict-active {
+  background:
+    radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.12), transparent 24%),
+    linear-gradient(180deg, #090b0e, #0b0d10 100%);
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -111,6 +117,26 @@ select {
 .rubric-nav {
   display: grid;
   gap: 8px;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  padding-top: 22px;
+  display: grid;
+  gap: 10px;
+}
+
+.sidebar-seo {
+  margin: 0;
+  color: var(--text);
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
+.sidebar-copyright {
+  margin: 0;
+  color: var(--muted);
+  font: 500 11px/1.55 var(--mono);
 }
 
 .rubric-button {
@@ -327,6 +353,17 @@ select {
 .rubric-button--dict[data-active="true"] {
   background: linear-gradient(135deg, rgba(167, 139, 250, 0.18), rgba(139, 92, 246, 0.08));
   border-color: rgba(167, 139, 250, 0.34);
+}
+
+.rubric-button--blog {
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+.rubric-button--blog span {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .dict-view {
