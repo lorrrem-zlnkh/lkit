@@ -302,7 +302,7 @@ function renderRubrics() {
   blogButton.href = BLOG_URL;
   blogButton.target = "_blank";
   blogButton.rel = "noreferrer";
-  blogButton.innerHTML = `<span>📰 Блог о дизайне привычных вещей</span>`;
+  blogButton.innerHTML = `<span class="rubric-button-icon">📰</span><span>Блог о дизайне привычных вещей</span>`;
   rubricNav.append(blogButton);
 }
 
