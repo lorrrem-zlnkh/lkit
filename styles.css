@@ -309,10 +309,19 @@ select {
 }
 
 .rubric-button--dict {
-  margin-top: 12px;
-  border-top: 1px solid var(--line);
-  padding-top: 14px;
-  border-radius: 0 0 16px 16px;
+  margin-top: 8px;
+  border-radius: 16px;
+  position: relative;
+}
+
+.rubric-button--dict::before {
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--line);
 }
 
 .rubric-button--dict[data-active="true"] {
@@ -382,9 +391,13 @@ select {
 
 .dict-share-btn {
   flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
   border: 1px solid var(--line);
   border-radius: 8px;
-  padding: 5px 8px;
+  padding: 0;
   background: transparent;
   color: var(--muted);
   cursor: pointer;
