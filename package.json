@@ -1,14 +1,9 @@
 {
-  "name": "obsidian-framer-automation",
+  "name": "lkit",
   "private": true,
   "type": "module",
   "scripts": {
-    "framer:capture-session": "node skills/obsidian-framer-browser-sync/scripts/capture_framer_session.mjs",
-    "framer:fill-catalog": "node skills/obsidian-framer-browser-sync/scripts/fill_framer_catalog.mjs",
-    "catalog:build-data": "node scripts/export_catalog_site_data.mjs",
-    "dict:build": "node scripts/build_dictionary.mjs"
-  },
-  "dependencies": {
-    "playwright": "^1.53.2"
+    "dict:build": "node scripts/build_dictionary.mjs",
+    "dict:expand": "node scripts/expand_dictionary.mjs"
   }
 }

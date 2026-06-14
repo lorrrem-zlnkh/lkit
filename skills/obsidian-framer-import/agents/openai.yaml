@@ -1,4 +1,0 @@
-schema_version: "v1"
-display_name: "Obsidian -> Framer Import"
-short_description: "Prepares Obsidian content for Framer CMS and page imports."
-default_prompt: "Convert Obsidian notes into a Framer-ready content model and generate import files."
