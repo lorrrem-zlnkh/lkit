@@ -4768,7 +4768,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "📣"
+    "Emoji": "🎵"
   },
   {
     "Resource": "Google UX Design Professional Certificate",

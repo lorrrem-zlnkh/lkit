@@ -4,6 +4,7 @@ const dictData = window.DICTIONARY_DATA || [];
 const ALL_LABEL = "Все";
 const DEFAULT_RUBRIC = "Инструменты";
 const DICT_MODE = "__dict__";
+const BLOG_URL = "https://t.me/lorrrem";
 
 const searchInput = document.querySelector("#search-input");
 const grid = document.querySelector("#catalog-grid");
@@ -295,6 +296,14 @@ function renderRubrics() {
     switchToDictMode();
   });
   rubricNav.append(dictButton);
+
+  const blogButton = document.createElement("a");
+  blogButton.className = "rubric-button rubric-button--blog";
+  blogButton.href = BLOG_URL;
+  blogButton.target = "_blank";
+  blogButton.rel = "noreferrer";
+  blogButton.innerHTML = `<span>📰 Блог о дизайне привычных вещей</span>`;
+  rubricNav.append(blogButton);
 }
 
 function isSearchMode() {
@@ -633,6 +642,7 @@ function switchToDictMode() {
   activeDictLetter = "";
   grid.hidden = true;
   dictView.hidden = false;
+  document.body.classList.add("dict-active");
   searchInput.placeholder = "Поиск по словарю";
   renderRubrics();
   renderDictLetterTabs();
@@ -644,6 +654,7 @@ function switchToCatalogMode(rubric) {
   activeSubrubric = "";
   grid.hidden = false;
   dictView.hidden = true;
+  document.body.classList.remove("dict-active");
   searchInput.placeholder = "Поиск";
   renderRubrics();
   renderSubrubricTabs();
