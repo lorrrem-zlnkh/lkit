@@ -82,6 +82,12 @@ select {
   margin-bottom: 28px;
 }
 
+.sidebar-brand-logo {
+  height: 28px;
+  width: auto;
+  display: block;
+}
+
 .sidebar-brand-mark {
   width: 52px;
   height: 52px;
