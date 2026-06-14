@@ -545,6 +545,7 @@ select {
   .app-layout {
     grid-template-columns: 1fr;
     min-width: 0;
+    align-content: start;
   }
 
   .mobile-topbar {
