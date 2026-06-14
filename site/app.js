@@ -1,10 +1,13 @@
 const data = window.CATALOG_DATA || [];
+const dictData = window.DICTIONARY_DATA || [];
 
 const ALL_LABEL = "Все";
 const DEFAULT_RUBRIC = "Инструменты";
+const DICT_MODE = "__dict__";
 
 const searchInput = document.querySelector("#search-input");
 const grid = document.querySelector("#catalog-grid");
+const dictView = document.querySelector("#dict-view");
 const template = document.querySelector("#card-template");
 const rubricNav = document.querySelector("#rubric-nav");
 const subcategoryTabs = document.querySelector("#subcategory-tabs");
@@ -276,14 +279,22 @@ function renderRubrics() {
     button.dataset.active = rubric === activeRubric ? "true" : "false";
     button.innerHTML = `<span>${rubric}</span><strong>${counts[rubric]}</strong>`;
     button.addEventListener("click", () => {
-      activeRubric = rubric;
-      activeSubrubric = "";
-      renderRubrics();
-      renderSubrubricTabs();
-      render();
+      searchInput.value = "";
+      switchToCatalogMode(rubric);
     });
     rubricNav.append(button);
   });
+
+  const dictButton = document.createElement("button");
+  dictButton.type = "button";
+  dictButton.className = "rubric-button rubric-button--dict";
+  dictButton.dataset.active = activeRubric === DICT_MODE ? "true" : "false";
+  dictButton.innerHTML = `<span>IT-словарь</span><strong>${dictData.length}</strong>`;
+  dictButton.addEventListener("click", () => {
+    searchInput.value = "";
+    switchToDictMode();
+  });
+  rubricNav.append(dictButton);
 }
 
 function isSearchMode() {
@@ -473,11 +484,188 @@ function render() {
 }
 
 searchInput.addEventListener("input", () => {
+  if (isDictMode()) {
+    activeDictLetter = "";
+    renderDictLetterTabs();
+    renderDict();
+  } else {
+    activeSubrubric = "";
+    renderSubrubricTabs();
+    render();
+  }
+});
+
+// ── Dictionary ────────────────────────────────────────────────────────────────
+
+let activeDictLetter = "";
+
+function isDictMode() {
+  return activeRubric === DICT_MODE;
+}
+
+function getDictLetters() {
+  const letters = [...new Set(dictData.map((e) => e.letter))];
+  return letters.sort(collator.compare);
+}
+
+function filterDict(query) {
+  if (!query) return dictData;
+  const q = normalizeText(query);
+  return dictData.filter(
+    (e) => normalizeText(e.term).includes(q) || normalizeText(e.definition).includes(q)
+  );
+}
+
+function copyDictLink(id) {
+  const url = `${location.origin}${location.pathname}#dict-${id}`;
+  navigator.clipboard.writeText(url).catch(() => {});
+}
+
+function renderDict() {
+  const query = searchInput.value.trim();
+  let items = filterDict(query);
+
+  if (activeDictLetter && !query) {
+    items = items.filter((e) => e.letter === activeDictLetter);
+  }
+
+  dictView.innerHTML = "";
+
+  if (!items.length) {
+    dictView.innerHTML = `<div class="empty-state">Ничего не найдено. Попробуй другой запрос.</div>`;
+    return;
+  }
+
+  const groups = new Map();
+  items.forEach((e) => {
+    const key = query ? "Результаты" : e.letter;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(e);
+  });
+
+  const fragment = document.createDocumentFragment();
+  groups.forEach((entries, letter) => {
+    const group = document.createElement("div");
+    group.className = "dict-letter-group";
+
+    const heading = document.createElement("h2");
+    heading.className = "dict-letter-heading";
+    heading.textContent = letter;
+    group.append(heading);
+
+    entries.forEach((entry) => {
+      const row = document.createElement("div");
+      row.className = "dict-term";
+      row.id = `dict-${entry.id}`;
+
+      const termEl = document.createElement("div");
+      termEl.className = "dict-term-header";
+
+      const title = document.createElement("span");
+      title.className = "dict-term-title";
+      title.textContent = entry.term;
+
+      const shareBtn = document.createElement("button");
+      shareBtn.type = "button";
+      shareBtn.className = "dict-share-btn";
+      shareBtn.title = "Скопировать ссылку";
+      shareBtn.textContent = "⎘";
+      shareBtn.addEventListener("click", () => {
+        copyDictLink(entry.id);
+        shareBtn.textContent = "✓";
+        setTimeout(() => { shareBtn.textContent = "⎘"; }, 1500);
+      });
+
+      termEl.append(title, shareBtn);
+
+      const def = document.createElement("p");
+      def.className = "dict-term-def";
+      def.textContent = entry.definition;
+
+      row.append(termEl, def);
+      group.append(row);
+    });
+
+    fragment.append(group);
+  });
+
+  dictView.append(fragment);
+}
+
+function renderDictLetterTabs() {
+  subcategoryTabs.innerHTML = "";
+  const query = searchInput.value.trim();
+  if (query) return;
+
+  const letters = getDictLetters();
+  const allBtn = document.createElement("button");
+  allBtn.type = "button";
+  allBtn.className = "subtab-button";
+  allBtn.dataset.active = activeDictLetter === "" ? "true" : "false";
+  allBtn.innerHTML = `<span>Все</span><strong>${dictData.length}</strong>`;
+  allBtn.addEventListener("click", () => {
+    activeDictLetter = "";
+    renderDictLetterTabs();
+    renderDict();
+  });
+  subcategoryTabs.append(allBtn);
+
+  letters.forEach((letter) => {
+    const count = dictData.filter((e) => e.letter === letter).length;
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "subtab-button";
+    btn.dataset.active = letter === activeDictLetter ? "true" : "false";
+    btn.innerHTML = `<span>${letter}</span><strong>${count}</strong>`;
+    btn.addEventListener("click", () => {
+      activeDictLetter = letter;
+      renderDictLetterTabs();
+      renderDict();
+    });
+    subcategoryTabs.append(btn);
+  });
+}
+
+function switchToDictMode() {
+  activeRubric = DICT_MODE;
   activeSubrubric = "";
+  activeDictLetter = "";
+  grid.hidden = true;
+  dictView.hidden = false;
+  searchInput.placeholder = "Поиск по словарю";
+  renderRubrics();
+  renderDictLetterTabs();
+  renderDict();
+}
+
+function switchToCatalogMode(rubric) {
+  activeRubric = rubric || DEFAULT_RUBRIC;
+  activeSubrubric = "";
+  grid.hidden = false;
+  dictView.hidden = true;
+  searchInput.placeholder = "Поиск";
+  renderRubrics();
   renderSubrubricTabs();
   render();
-});
+}
+
+function initDictFromHash() {
+  const hash = location.hash;
+  if (!hash.startsWith("#dict-")) return;
+  const id = hash.slice(6);
+  switchToDictMode();
+  setTimeout(() => {
+    const el = document.getElementById(`dict-${id}`);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "center" });
+      el.classList.add("dict-term--highlight");
+    }
+  }, 100);
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────────
 
 renderRubrics();
 renderSubrubricTabs();
 render();
+initDictFromHash();
