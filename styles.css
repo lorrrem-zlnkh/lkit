@@ -384,12 +384,11 @@ select {
   flex-shrink: 0;
   border: 1px solid var(--line);
   border-radius: 8px;
-  padding: 3px 9px;
+  padding: 5px 8px;
   background: transparent;
   color: var(--muted);
   cursor: pointer;
-  font-size: 13px;
-  font-family: var(--mono);
+  line-height: 0;
   transition: color 0.15s, border-color 0.15s, background 0.15s, opacity 0.15s;
   opacity: 0;
 }
