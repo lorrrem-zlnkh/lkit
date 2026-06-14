@@ -206,6 +206,17 @@ select {
   border-color: rgba(125, 211, 252, 0.34);
 }
 
+/* Desktop: align rubric labels to the same left line as the logo and footer.
+   The button keeps its inner padding, but a negative margin pulls the label
+   onto the sidebar content edge (the active pill bleeds symmetrically into
+   the sidebar padding). */
+@media (min-width: 769px) {
+  .rubric-nav {
+    margin-left: -14px;
+    margin-right: -14px;
+  }
+}
+
 .content {
   padding: 24px;
 }
@@ -412,6 +423,14 @@ select {
   max-width: 760px;
 }
 
+.dict-view--empty {
+  max-width: none;
+}
+
+.dict-view--empty .empty-state {
+  text-align: center;
+}
+
 .dict-letter-group {
   display: grid;
   gap: 0;
@@ -525,6 +544,7 @@ select {
 @media (max-width: 768px) {
   .app-layout {
     grid-template-columns: 1fr;
+    min-width: 0;
   }
 
   .mobile-topbar {
@@ -536,9 +556,10 @@ select {
     position: sticky;
     top: 0;
     z-index: 30;
-    background: linear-gradient(180deg, rgba(12, 15, 20, 0.98), rgba(12, 15, 20, 0.92));
+    background: rgba(11, 13, 16, 0.55);
     border-bottom: 1px solid var(--line);
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(16px) saturate(140%);
+    -webkit-backdrop-filter: blur(16px) saturate(140%);
   }
 
   .mobile-brand {
@@ -614,7 +635,8 @@ select {
     background: var(--line-strong);
   }
 
-  .sidebar .sidebar-brand {
+  .sidebar .sidebar-brand,
+  .sidebar .sidebar-footer {
     display: none;
   }
 
@@ -640,6 +662,31 @@ select {
 
   .content {
     padding: 16px;
+    min-width: 0;
+    overflow-x: clip;
+  }
+
+  .content-topbar {
+    margin-bottom: 14px;
+  }
+
+  /* Category/letter filters: one row, horizontal scroll bleeding to screen edges */
+  .subcategory-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 12px -16px 0;
+    padding: 2px 16px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .subcategory-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .subtab-button {
+    flex: 0 0 auto;
   }
 }
 

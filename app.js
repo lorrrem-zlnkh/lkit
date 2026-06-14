@@ -539,6 +539,7 @@ function renderDict() {
   }
 
   dictView.innerHTML = "";
+  dictView.classList.toggle("dict-view--empty", items.length === 0);
 
   if (!items.length) {
     dictView.innerHTML = `<div class="empty-state">Ничего не найдено. Попробуй другой запрос.</div>`;
@@ -604,16 +605,15 @@ function renderDict() {
 
 function renderDictLetterTabs() {
   subcategoryTabs.innerHTML = "";
-  const query = searchInput.value.trim();
-  if (query) return;
 
   const letters = getDictLetters();
   const allBtn = document.createElement("button");
   allBtn.type = "button";
   allBtn.className = "subtab-button";
-  allBtn.dataset.active = activeDictLetter === "" ? "true" : "false";
+  allBtn.dataset.active = activeDictLetter === "" && !searchInput.value.trim() ? "true" : "false";
   allBtn.innerHTML = `<span>Все</span><strong>${dictData.length}</strong>`;
   allBtn.addEventListener("click", () => {
+    searchInput.value = "";
     activeDictLetter = "";
     renderDictLetterTabs();
     renderDict();
@@ -625,9 +625,11 @@ function renderDictLetterTabs() {
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = "subtab-button";
-    btn.dataset.active = letter === activeDictLetter ? "true" : "false";
+    btn.dataset.active =
+      letter === activeDictLetter && !searchInput.value.trim() ? "true" : "false";
     btn.innerHTML = `<span>${letter}</span><strong>${count}</strong>`;
     btn.addEventListener("click", () => {
+      searchInput.value = "";
       activeDictLetter = letter;
       renderDictLetterTabs();
       renderDict();
