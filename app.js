@@ -701,8 +701,37 @@ function initDictFromHash() {
 
 window.addEventListener("hashchange", () => openDictHash(location.hash));
 
+// ── Mobile menu (burger + bottom sheet) ────────────────────────────────────────
+
+function setupMobileMenu() {
+  const burger = document.querySelector("#menu-burger");
+  const sidebar = document.querySelector("#sidebar");
+  const backdrop = document.querySelector("#menu-backdrop");
+  if (!burger || !sidebar || !backdrop) return;
+
+  const setOpen = (open) => {
+    sidebar.classList.toggle("is-open", open);
+    backdrop.classList.toggle("is-open", open);
+    document.body.classList.toggle("menu-open", open);
+    burger.setAttribute("aria-expanded", open ? "true" : "false");
+  };
+
+  burger.addEventListener("click", () =>
+    setOpen(burger.getAttribute("aria-expanded") !== "true")
+  );
+  backdrop.addEventListener("click", () => setOpen(false));
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") setOpen(false);
+  });
+  // Close the sheet once a section is chosen
+  sidebar.addEventListener("click", (e) => {
+    if (e.target.closest(".rubric-button")) setOpen(false);
+  });
+}
+
 // ── Init ──────────────────────────────────────────────────────────────────────
 
+setupMobileMenu();
 renderRubrics();
 renderSubrubricTabs();
 render();
