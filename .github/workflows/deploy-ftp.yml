@@ -16,8 +16,16 @@ jobs:
   ftp-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout (site assets only, skip long-named screenshots)
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            site/index.html
+            site/styles.css
+            site/app.js
+            site/catalog-data.js
+            site/dictionary-data.js
+          sparse-checkout-cone-mode: false
 
       - name: Deploy site/ to production via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
