@@ -23,7 +23,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/как-сделать-сервисы-доступными-4-принципа-и-опыт-незрячего-тестировщика-из-яндекса.png",
     "ScreenshotSource": "local",
     "InfoSource": "template",
-    "Emoji": "🧭"
+    "Emoji": "♿️"
   },
   {
     "Resource": "Люди и интерфейсы. Рассказ незрячего тестировщика о том, как сервисы Яндекса становятся доступнее",
@@ -36,7 +36,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/люди-и-интерфейсы-рассказ-незрячего-тестировщика-о-том-как-сервисы-яндекса-становятся-доступнее.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🦯"
+    "Emoji": "♿️"
   },
   {
     "Resource": "Технологии для каждого, инклюзия в Яндексе",
@@ -49,7 +49,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/технологии-для-каждого-инклюзия-в-яндексе.png",
     "ScreenshotSource": "local",
     "InfoSource": "template",
-    "Emoji": "🧩"
+    "Emoji": "♿️"
   },
   {
     "Resource": "Цифровая доступность, Техно",
@@ -62,7 +62,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/цифровая-доступность-техно.png",
     "ScreenshotSource": "local",
     "InfoSource": "template",
-    "Emoji": "📘"
+    "Emoji": "♿️"
   },
   {
     "Resource": "Web Content Accessibility Guidelines (WCAG) 2.2",
@@ -88,7 +88,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.3dlogolab.io%2F3d-logo-generator-free?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🔷"
+    "Emoji": "🧊"
   },
   {
     "Resource": "Endless Tools",
@@ -101,7 +101,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fendlesstools.io%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🌀"
+    "Emoji": "🧊"
   },
   {
     "Resource": "formia.so",
@@ -140,7 +140,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.meshy.ai%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "📦"
+    "Emoji": "🧊"
   },
   {
     "Resource": "pacdora.com",
@@ -153,7 +153,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.pacdora.com%2F3d-modeling%2F%3Fid%3Diratwa4jym?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🎙️"
+    "Emoji": "📦"
   },
   {
     "Resource": "adobe podcast",
@@ -166,7 +166,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpodcast.adobe.com%2Fen?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "🎧"
+    "Emoji": "🎙️"
   },
   {
     "Resource": "elevenlabs.io",
@@ -179,7 +179,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/elevenlabs-io.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🔊"
+    "Emoji": "🗣️"
   },
   {
     "Resource": "gptunnel.ru",
@@ -192,7 +192,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/gptunnel-ru.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🎵"
+    "Emoji": "🎧"
   },
   {
     "Resource": "suno.co",
@@ -205,7 +205,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fsuno.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "🗣️"
+    "Emoji": "🎵"
   },
   {
     "Resource": "vidnoz.com",
@@ -231,7 +231,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fstudio.d-id.com%2Feditor?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "🎞️"
+    "Emoji": "🎬"
   },
   {
     "Resource": "Genmo",
@@ -244,7 +244,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/genmo.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "📹"
+    "Emoji": "🎬"
   },
   {
     "Resource": "hailuoai.video",
@@ -257,7 +257,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/hailuoai-video.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🎥"
+    "Emoji": "🎬"
   },
   {
     "Resource": "higgsfield.ai",
@@ -270,7 +270,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fhiggsfield.ai%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🕹️"
+    "Emoji": "🎬"
   },
   {
     "Resource": "klingai.com",
@@ -283,7 +283,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/klingai-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "✨"
+    "Emoji": "🎬"
   },
   {
     "Resource": "lumalabs.ai",
@@ -296,7 +296,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/lumalabs-ai.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🖼️"
+    "Emoji": "🎬"
   },
   {
     "Resource": "omagic.ai",
@@ -309,7 +309,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fapp.omagic.ai%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🪄"
+    "Emoji": "🎬"
   },
   {
     "Resource": "Pika",
@@ -322,20 +322,20 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/pika.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🌄"
+    "Emoji": "🎬"
   },
   {
     "Resource": "pixverse.ai",
     "Rubric": "ИИ",
     "Subrubric": "Видео и анимация",
-    "Link": "https://app.pixverse.ai/home",
+    "Link": "https://pixverse.ai/",
     "Slug": "pixverse-ai",
-    "Description": "Платформа для генерации ИИ-видео из текста и изображений с эффектами, шаблонами и social-first сценариями.",
-    "AccessStatus": "требует логин",
+    "Description": "PixVerse — платформа для генерации ИИ-видео из текста и изображений с эффектами, шаблонами и social-first сценариями.",
+    "AccessStatus": "ok",
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fapp.pixverse.ai%2Fhome?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🧑‍🎨"
+    "Emoji": "🎬"
   },
   {
     "Resource": "runwayml.com",
@@ -348,7 +348,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fapp.runwayml.com%2Fvideo-tools%2Fteams%2F9j56pyrkjf%2Fdashboard?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "✂️"
+    "Emoji": "🎬"
   },
   {
     "Resource": "Vidu",
@@ -361,7 +361,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.shengshu-ai.com%2Fvidu?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🧼"
+    "Emoji": "🎬"
   },
   {
     "Resource": "adobe.com",
@@ -374,7 +374,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.adobe.com%2Fproducts%2Ffirefly.html?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "🔍"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Animated Drawings",
@@ -387,7 +387,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/animated-drawings.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🧵"
+    "Emoji": "🎞️"
   },
   {
     "Resource": "app.artflow.ai",
@@ -400,20 +400,20 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fapp.artflow.ai%2Fcharacter-builder?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "🤖"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "creatopy.com",
     "Rubric": "ИИ",
     "Subrubric": "Изображения и графика",
-    "Link": "https://www.creatopy.com/",
+    "Link": "https://www.thebrief.ai/",
     "Slug": "creatopy-com",
-    "Description": "Платформа для быстрого создания рекламных креативов и масштабирования кампаний с помощью ИИ.",
+    "Description": "The Brief AI (ранее Creatopy) — платформа для генерации рекламных креативов: статичных, анимированных и UGC-видео в сотнях вариаций для маркетинговых кампаний.",
     "AccessStatus": "ok",
     "Screenshot": "./screenshots/creatopy-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🧠"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Erase",
@@ -426,7 +426,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/erase.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "📚"
+    "Emoji": "✂️"
   },
   {
     "Resource": "flair.ai",
@@ -439,7 +439,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fflair.ai%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "📝"
+    "Emoji": "📸"
   },
   {
     "Resource": "Flux.ai",
@@ -452,7 +452,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffreeflux.ai%2Fai-image-generator?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "💬"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "ideogram.ai",
@@ -465,7 +465,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fideogram.ai%2Flogin?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "🧪"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Imagelager",
@@ -478,20 +478,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/imagelager.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "📊"
-  },
-  {
-    "Resource": "items.design",
-    "Rubric": "ИИ",
-    "Subrubric": "Изображения и графика",
-    "Link": "https://items.design/",
-    "Slug": "items-design",
-    "Description": "Библиотека AI-сгенерированных дизайн-ассетов с промптами, абстрактными фонами, объектами и 3D-визуалами для сайтов, приложений и презентаций.",
-    "AccessStatus": "нужна новая публичная ссылка",
-    "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fitems.design%2F?w=1200",
-    "ScreenshotSource": "web",
-    "InfoSource": "web research",
-    "Emoji": "📋"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "lensa",
@@ -504,7 +491,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/lensa.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🗃️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "leonardo.ai",
@@ -517,7 +504,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/leonardo-ai.png",
     "ScreenshotSource": "local",
     "InfoSource": "web research",
-    "Emoji": "🗂️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "midjourney.com",
@@ -530,20 +517,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.midjourney.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "🧯"
-  },
-  {
-    "Resource": "pixcap.com",
-    "Rubric": "ИИ",
-    "Subrubric": "Изображения и графика",
-    "Link": "https://landing.pixcap.com/",
-    "Slug": "pixcap-com",
-    "Description": "Pixcap — 3D-инструмент для дизайнеров с редактируемыми иконками, иллюстрациями, персонажами, мокапами и AI-фильтрами.",
-    "AccessStatus": "нужна новая публичная ссылка",
-    "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flanding.pixcap.com%2F?w=1200",
-    "ScreenshotSource": "web",
-    "InfoSource": "web research",
-    "Emoji": "🕵️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "pngmaker.io",
@@ -556,7 +530,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpngmaker.io%2Fru?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🛡️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Quest",
@@ -569,7 +543,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/quest.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🌐"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Recraft",
@@ -582,7 +556,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/recraft.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "📞"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Removal",
@@ -595,7 +569,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fremoval.ai%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🖥️"
+    "Emoji": "✂️"
   },
   {
     "Resource": "stitch.withgoogle",
@@ -608,20 +582,20 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fstitch.withgoogle.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "⏱️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Texturelab",
     "Rubric": "ИИ",
     "Subrubric": "Изображения и графика",
-    "Link": "https://www.texturelab.xyz/#",
+    "Link": "https://www.scenario.com/",
     "Slug": "texturelab",
-    "Description": "Инструмент для генерации и обработки текстур, материалов и поверхностей для 3D- и визуальных проектов.",
-    "AccessStatus": "нужна новая публичная ссылка",
+    "Description": "Генератор бесшовных текстур и материалов для 3D и игр; теперь часть ИИ-платформы Scenario (домен texturelab.xyz редиректит на scenario.com).",
+    "AccessStatus": "ok",
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.texturelab.xyz%2F%23?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "📽️"
+    "Emoji": "🧱"
   },
   {
     "Resource": "TPDNE",
@@ -634,7 +608,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fthispersondoesnotexist.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🖌️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "tripo3d.ai",
@@ -647,20 +621,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/http%3A%2F%2Ftripo3d.ai%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "✍️"
-  },
-  {
-    "Resource": "Unfakepng",
-    "Rubric": "ИИ",
-    "Subrubric": "Изображения и графика",
-    "Link": "https://unfakepng.com/",
-    "Slug": "unfakepng",
-    "Description": "Инструмент для удаления артефактов и очистки PNG-изображений, особенно в прозрачных областях и вырезанных объектах.",
-    "AccessStatus": "нужна новая публичная ссылка",
-    "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Funfakepng.com%2F?w=1200",
-    "ScreenshotSource": "web",
-    "InfoSource": "template",
-    "Emoji": "🧾"
+    "Emoji": "🧊"
   },
   {
     "Resource": "Upscaler",
@@ -673,7 +634,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ficons8.com%2Fupscaler?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🔤"
+    "Emoji": "🔍"
   },
   {
     "Resource": "Vectorizer.ai",
@@ -686,7 +647,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fvectorizer.ai%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🧮"
+    "Emoji": "📐"
   },
   {
     "Resource": "virtualthreads.io",
@@ -699,20 +660,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/virtualthreads-io.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🎛️"
-  },
-  {
-    "Resource": "visualelectric.com",
-    "Rubric": "ИИ",
-    "Subrubric": "Изображения и графика",
-    "Link": "https://visualelectric.com/",
-    "Slug": "visualelectric-com",
-    "Description": "ИИ-инструмент для генерации стилизованных изображений и визуальных концептов для дизайнеров и креаторов.",
-    "AccessStatus": "нужна новая публичная ссылка",
-    "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fvisualelectric.com%2F?w=1200",
-    "ScreenshotSource": "web",
-    "InfoSource": "template",
-    "Emoji": "🧰"
+    "Emoji": "👕"
   },
   {
     "Resource": "Waifu",
@@ -725,7 +673,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/http%3A%2F%2Fwaifu2x.udp.jp%2Findex.ru.html?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🎚️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Промпты ChatGPT",
@@ -738,7 +686,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fjournal.tinkoff.ru%2Fshort%2Fchatgpt-prompts%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🎨"
+    "Emoji": "💬"
   },
   {
     "Resource": "Prompt Library",
@@ -751,7 +699,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/1-promptlibrary-org-midjourney-независимая-библиотека-промтов.png",
     "ScreenshotSource": "local",
     "InfoSource": "template",
-    "Emoji": "🌈"
+    "Emoji": "💬"
   },
   {
     "Resource": "Промпты Luma",
@@ -764,7 +712,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/10-https-tenchat-ru-media-2756967-15-unikalnykh-tekstovykh-effektov-dlya-luma-ai-dream-machine-luma-dream-machine-статья-с-примерами-промтов.png",
     "ScreenshotSource": "local",
     "InfoSource": "template",
-    "Emoji": "🖍️"
+    "Emoji": "💬"
   },
   {
     "Resource": "Runway Prompting",
@@ -777,7 +725,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fhelp.runwayml.com%2Fhc%2Fen-us%2Fsections%2F23989550580627-Prompting?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🧿"
+    "Emoji": "💬"
   },
   {
     "Resource": "Гайд Runway",
@@ -790,7 +738,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/12-https-vc-ru-ai-1561885-kak-legko-generirovat-potryasayushie-video-polnoe-rukovodstvo-po-napisaniyu-promptov-dlya-runway-gen-3-runway-полезная-статься-с-руководством-по-написанию-промтов-для-ранвей.png",
     "ScreenshotSource": "local",
     "InfoSource": "template",
-    "Emoji": "🔠"
+    "Emoji": "💬"
   },
   {
     "Resource": "Runway Gen-2",
@@ -803,7 +751,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fjournal.tinkoff.ru%2Frunway-gen2%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "📖"
+    "Emoji": "💬"
   },
   {
     "Resource": "AI Film Runway",
@@ -816,7 +764,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/14-https-telegra-ph-kak-sozdat-ai-film-v-runway-gen-3-alpha-process-promty-lajfhaki-07-22-runway-и-еще-одна-статья-с-примером-классного-фильма-сделанного-в-runway.png",
     "ScreenshotSource": "local",
     "InfoSource": "curated cleanup",
-    "Emoji": "📰"
+    "Emoji": "💬"
   },
   {
     "Resource": "Гайд по промптам",
@@ -829,7 +777,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/16-https-habr-com-ru-articles-854826-chatgpt-midjourney-шедеврум-кандинский-статья-на-тему-написания-промтов.png",
     "ScreenshotSource": "local",
     "InfoSource": "template",
-    "Emoji": "🎓"
+    "Emoji": "💬"
   },
   {
     "Resource": "Learn Prompting",
@@ -842,7 +790,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flearnprompting.org%2Fru%2Fdocs%2Fintroduction?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🎟️"
+    "Emoji": "💬"
   },
   {
     "Resource": "Free Midjourney",
@@ -855,7 +803,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/2-freemidjourneyprompt-com-midjourney-еще-одна-независимая-библиотечка.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🎭"
+    "Emoji": "💬"
   },
   {
     "Resource": "PromptHero",
@@ -868,7 +816,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fprompthero.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🧱"
+    "Emoji": "💬"
   },
   {
     "Resource": "Midjourney Guide",
@@ -881,7 +829,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fgithub.com%2Fwillwulfken%2FMidJourney-Styles-and-Keywords-Reference%2Fblob%2Fmain%2FREADME.md?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "📱"
+    "Emoji": "💬"
   },
   {
     "Resource": "SnackPrompt",
@@ -894,7 +842,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/4-snackprompt-com-chatgpt-gemini-dall-e-midjourney-библиотека-промтов-для-решения-разноплановых-задач.png",
     "ScreenshotSource": "local",
     "InfoSource": "template",
-    "Emoji": "💻"
+    "Emoji": "💬"
   },
   {
     "Resource": "Neurobot Prompts",
@@ -907,7 +855,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fneurobot.ru%2Fprompts?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🖨️"
+    "Emoji": "💬"
   },
   {
     "Resource": "GigaChat Prompts",
@@ -920,20 +868,20 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdevelopers.sber.ru%2Fhelp%2Fgigachat%2Fcatalog?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🧷"
+    "Emoji": "💬"
   },
   {
     "Resource": "MITUP Prompts",
     "Rubric": "ИИ",
     "Subrubric": "Промпты и библиотеки",
-    "Link": "https://ai.mitup.ru/prompts",
+    "Link": "https://ai.mitup.ru/",
     "Slug": "7-ai-mitup-ru-prompts-универсальный-материал-коллекция-универсальных-промтов-для-создания-контента-и-автоматизации-рутины",
-    "Description": "Коллекция универсальных промптов для генерации контента, рабочих задач и автоматизации рутины.",
-    "AccessStatus": "нужна новая публичная ссылка",
+    "Description": "Mitup AI — агрегатор нейросетей (GPT, Gemini, DeepSeek, YandexGPT) в одном интерфейсе с готовыми промптами и примерами для генерации контента.",
+    "AccessStatus": "ok",
     "Screenshot": "./screenshots/7-ai-mitup-ru-prompts-универсальный-материал-коллекция-универсальных-промтов-для-создания-контента-и-автоматизации-рутины.png",
     "ScreenshotSource": "local",
     "InfoSource": "template",
-    "Emoji": "🪧"
+    "Emoji": "💬"
   },
   {
     "Resource": "Prompt1",
@@ -946,7 +894,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fprompt1.ru%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🗺️"
+    "Emoji": "💬"
   },
   {
     "Resource": "Luma Prompts",
@@ -959,7 +907,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/9-https-favtutor-com-articles-luma-ai-dream-machine-prompts-luma-dream-machine-статья-с-примерами-промтов.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🧑‍💻"
+    "Emoji": "💬"
   },
   {
     "Resource": "Luma Prompt Guide",
@@ -972,7 +920,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/9-https-lumaai-notion-site-faq-and-prompt-guide-luma-dream-machine-f7bd5f77478c4994aa692aa58b063ef3-luma-dream-machine-официальный-гайд-по-написанию-промтов-для-люмы.png",
     "ScreenshotSource": "local",
     "InfoSource": "template",
-    "Emoji": "🏗️"
+    "Emoji": "💬"
   },
   {
     "Resource": "Yandex Prompt Hub Study",
@@ -985,7 +933,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Falice.yandex.ru%2Fprompthub%2Fstudy?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🧬"
+    "Emoji": "💬"
   },
   {
     "Resource": "chat.openai.com",
@@ -998,7 +946,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fchat.openai.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "🧞"
+    "Emoji": "🤖"
   },
   {
     "Resource": "chat.qwenlm.ai",
@@ -1011,7 +959,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fchat.qwenlm.ai%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "🧑‍🏫"
+    "Emoji": "🤖"
   },
   {
     "Resource": "claude.ai",
@@ -1024,7 +972,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fclaude.ai%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "🪪"
+    "Emoji": "🤖"
   },
   {
     "Resource": "copilot.microsoft.com",
@@ -1037,7 +985,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/copilot-microsoft-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😀"
+    "Emoji": "🤖"
   },
   {
     "Resource": "deepseek.com",
@@ -1050,7 +998,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.deepseek.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "😃"
+    "Emoji": "🤖"
   },
   {
     "Resource": "gemini.google.com",
@@ -1063,7 +1011,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/gemini-google-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😄"
+    "Emoji": "🤖"
   },
   {
     "Resource": "gigachat_bot",
@@ -1076,7 +1024,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/gigachat-bot.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😁"
+    "Emoji": "🤖"
   },
   {
     "Resource": "perplexity.ai",
@@ -1089,7 +1037,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.perplexity.ai%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "😆"
+    "Emoji": "🤖"
   },
   {
     "Resource": "syntxaibot",
@@ -1102,7 +1050,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/syntxaibot.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😅"
+    "Emoji": "🤖"
   },
   {
     "Resource": "ya.ru",
@@ -1115,7 +1063,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/ya-ru.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🙂"
+    "Emoji": "🤖"
   },
   {
     "Resource": "chatplace.io",
@@ -1128,7 +1076,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fapp.chatplace.io%2Fautomations%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🙃"
+    "Emoji": "🤖"
   },
   {
     "Resource": "Brandfetch",
@@ -1141,7 +1089,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbrandfetch.com%2Fplugins%2Fgoogle-chrome?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "😉"
+    "Emoji": "🔌"
   },
   {
     "Resource": "Muzli (Chrome Extension)",
@@ -1154,7 +1102,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/muzli-chrome-extension.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😊"
+    "Emoji": "🔌"
   },
   {
     "Resource": "one-tab.com",
@@ -1167,7 +1115,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/one-tab-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😇"
+    "Emoji": "🗂️"
   },
   {
     "Resource": "Pixel Perfect (Chrome Extension)",
@@ -1180,7 +1128,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/pixel-perfect-chrome-extension.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🥰"
+    "Emoji": "📐"
   },
   {
     "Resource": "Wappalyzer",
@@ -1193,7 +1141,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.wappalyzer.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😍"
+    "Emoji": "🔍"
   },
   {
     "Resource": "Яндекс Взгляд",
@@ -1206,7 +1154,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fsurveys.yandex.ru%2Flanding%2F%3Futm_medium%3Dsearch%26utm_source%3Dyandex%26utm_campaign%3D50737628-rus_brand_yandex_search_b%26utm_term%3D%25D1%258F%25D0%25BD%25D0%25B4%25D0%25B5%25D0%25BA%25D1%2581%2520%25D0%25B2%25D0%25B7%25D0%25B3%25D0%25BB%25D1%258F%25D0%25B4_20177064061%26utm_content%3Dk50id%7C0100000020177064061_%7Ccid%7C50737628%7Cgid%7C4152058726%7Caid%7C12094141254%7Cadp%7Cno%7Cpos%7Cpremium1%7Csrc%7Csearch_none%7Cdvc%7Cdesktop%7Cmain%26k50id%3D0100000020177064061_%26yclid%3D9109356569483804671?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🤩"
+    "Emoji": "📊"
   },
   {
     "Resource": "Яндекс Формы",
@@ -1219,7 +1167,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fforms.yandex.ru%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😘"
+    "Emoji": "📊"
   },
   {
     "Resource": "Mindbox",
@@ -1232,7 +1180,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/mindbox.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😗"
+    "Emoji": "📊"
   },
   {
     "Resource": "Optimal Workshop",
@@ -1245,7 +1193,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.optimalworkshop.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😚"
+    "Emoji": "📊"
   },
   {
     "Resource": "Responster",
@@ -1258,7 +1206,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/responster.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😙"
+    "Emoji": "📊"
   },
   {
     "Resource": "Statcounter Screen Resolution",
@@ -1271,7 +1219,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/statcounter-screen-resolution.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🥲"
+    "Emoji": "📐"
   },
   {
     "Resource": "Survey Monkey",
@@ -1284,7 +1232,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/survey-monkey.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😋"
+    "Emoji": "📊"
   },
   {
     "Resource": "Survicate",
@@ -1297,7 +1245,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/survicate.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😛"
+    "Emoji": "📊"
   },
   {
     "Resource": "Lyssna",
@@ -1310,7 +1258,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/usability-hub.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😜"
+    "Emoji": "📊"
   },
   {
     "Resource": "Web Archive",
@@ -1323,7 +1271,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fweb.archive.org%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🤪"
+    "Emoji": "🗄️"
   },
   {
     "Resource": "Base44",
@@ -1331,12 +1279,12 @@ window.CATALOG_DATA = [
     "Subrubric": "Конструкторы сайтов",
     "Link": "https://base44.com/",
     "Slug": "base44",
-    "Description": "Инструмент для дизайна, прототипирования и рабочих визуальных сценариев.",
-    "AccessStatus": "нужна новая публичная ссылка",
+    "Description": "Base44 — no-code конструктор приложений на ИИ: от идеи до работающего приложения за минуты, без кода и настройки.",
+    "AccessStatus": "ok",
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbase44.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😝"
+    "Emoji": "🌐"
   },
   {
     "Resource": "Tilda",
@@ -1349,7 +1297,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/tilda.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🤑"
+    "Emoji": "🌐"
   },
   {
     "Resource": "Webflow",
@@ -1362,7 +1310,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwebflow.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "🤗"
+    "Emoji": "🌐"
   },
   {
     "Resource": "cutestockfootage.com",
@@ -1375,7 +1323,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fcutestockfootage.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🤭"
+    "Emoji": "🎬"
   },
   {
     "Resource": "freesfx.co.uk",
@@ -1388,7 +1336,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/freesfx-co-uk.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🫢"
+    "Emoji": "🔊"
   },
   {
     "Resource": "freesound.org",
@@ -1401,7 +1349,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffreesound.org%2F%3F%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🫣"
+    "Emoji": "🔊"
   },
   {
     "Resource": "greenscreenmemes.com",
@@ -1414,7 +1362,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fgreenscreenmemes.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🤫"
+    "Emoji": "🎬"
   },
   {
     "Resource": "Jitter",
@@ -1427,7 +1375,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/jitter.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🤔"
+    "Emoji": "✨"
   },
   {
     "Resource": "mixkit.co",
@@ -1440,7 +1388,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/mixkit-co.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🫡"
+    "Emoji": "🎬"
   },
   {
     "Resource": "myinstants.com",
@@ -1453,7 +1401,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/myinstants-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🤐"
+    "Emoji": "🔊"
   },
   {
     "Resource": "pixabay.com",
@@ -1466,20 +1414,20 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpixabay.com%2Fvideos%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🤨"
+    "Emoji": "🎬"
   },
   {
     "Resource": "Podcastle",
     "Rubric": "Инструменты",
     "Subrubric": "Медиа-инструменты",
-    "Link": "https://podcastle.ai",
+    "Link": "https://async.com/",
     "Slug": "podcastle",
-    "Description": "Креативная ИИ-студия для производства видео и аудио-контента с голосовыми API для приложений и агентов.",
+    "Description": "Async (ранее Podcastle) — ИИ-студия для создания и редактирования видео и аудио: монтаж через чат с ИИ, озвучка, дубляж, субтитры и работа с голосом.",
     "AccessStatus": "ok",
     "Screenshot": "./screenshots/podcastle.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😐"
+    "Emoji": "🎙️"
   },
   {
     "Resource": "tuna.voicemod.net",
@@ -1492,7 +1440,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/tuna-voicemod-net.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😑"
+    "Emoji": "🔊"
   },
   {
     "Resource": "yarn.co",
@@ -1505,7 +1453,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fyarn.co%2Fyarn-discover?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😶"
+    "Emoji": "🎬"
   },
   {
     "Resource": "zapsplat.com",
@@ -1518,7 +1466,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.zapsplat.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🫥"
+    "Emoji": "🔊"
   },
   {
     "Resource": "zvukipro.com",
@@ -1531,7 +1479,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/zvukipro-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😏"
+    "Emoji": "🔊"
   },
   {
     "Resource": "Глаз бога",
@@ -1544,7 +1492,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/глаз-бога.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😒"
+    "Emoji": "🔍"
   },
   {
     "Resource": "geospy.ai",
@@ -1557,7 +1505,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/geospy-ai.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🙄"
+    "Emoji": "🔍"
   },
   {
     "Resource": "Have I Been Pwned",
@@ -1570,7 +1518,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/have-i-been-pwned.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😬"
+    "Emoji": "🔍"
   },
   {
     "Resource": "Maltego",
@@ -1583,7 +1531,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/maltego.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🤥"
+    "Emoji": "🔍"
   },
   {
     "Resource": "osintframework.com",
@@ -1596,7 +1544,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/osintframework-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😌"
+    "Emoji": "🔍"
   },
   {
     "Resource": "rabbithole.chat",
@@ -1609,7 +1557,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/rabbithole-chat.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😔"
+    "Emoji": "🔍"
   },
   {
     "Resource": "SpiderFoot",
@@ -1622,7 +1570,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fgithub.com%2Fsmicallef%2Fspiderfoot?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😪"
+    "Emoji": "🔍"
   },
   {
     "Resource": "tineye.com",
@@ -1635,7 +1583,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ftineye.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🤤"
+    "Emoji": "🔍"
   },
   {
     "Resource": "Whois-сервисы",
@@ -1648,7 +1596,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.reg.ru%2Fwhois%2F%3Futm_source%3Dgoogle.com%26utm_medium%3Dorganic%26utm_campaign%3Dgoogle.com%26utm_referrer%3Dgoogle.com?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😴"
+    "Emoji": "🔍"
   },
   {
     "Resource": "Телемост",
@@ -1661,7 +1609,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ftelemost.yandex.ru%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😷"
+    "Emoji": "📹"
   },
   {
     "Resource": "arc.net",
@@ -1674,7 +1622,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Farc.net%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🤒"
+    "Emoji": "🧭"
   },
   {
     "Resource": "checklist.design",
@@ -1687,7 +1635,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/checklist-design.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🤕"
+    "Emoji": "✅"
   },
   {
     "Resource": "I ♡ IMG",
@@ -1700,7 +1648,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/i-img.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🤢"
+    "Emoji": "🗜️"
   },
   {
     "Resource": "Image Compressor",
@@ -1713,7 +1661,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/image-compressor.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🥴"
+    "Emoji": "🗜️"
   },
   {
     "Resource": "movavika",
@@ -1726,7 +1674,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/movavika.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😵"
+    "Emoji": "🎬"
   },
   {
     "Resource": "Pdf.io",
@@ -1739,7 +1687,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/pdf-io.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🤯"
+    "Emoji": "📄"
   },
   {
     "Resource": "Screenstory",
@@ -1752,7 +1700,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/screenstory.png",
     "ScreenshotSource": "local",
     "InfoSource": "curated cleanup",
-    "Emoji": "🥳"
+    "Emoji": "🎥"
   },
   {
     "Resource": "smallpdf.com",
@@ -1765,7 +1713,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/smallpdf-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🥸"
+    "Emoji": "📄"
   },
   {
     "Resource": "Smartsheet",
@@ -1778,7 +1726,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/smartsheet.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😎"
+    "Emoji": "📊"
   },
   {
     "Resource": "Todoist",
@@ -1791,7 +1739,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/todoist.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🤓"
+    "Emoji": "✅"
   },
   {
     "Resource": "Trello",
@@ -1804,7 +1752,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/trello.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🧐"
+    "Emoji": "✅"
   },
   {
     "Resource": "Zoom",
@@ -1817,7 +1765,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fzoom.us%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😕"
+    "Emoji": "📹"
   },
   {
     "Resource": "Мокапус",
@@ -1830,20 +1778,20 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/мокапус.png",
     "ScreenshotSource": "local",
     "InfoSource": "curated cleanup",
-    "Emoji": "🫤"
+    "Emoji": "📱"
   },
   {
     "Resource": "Фокус",
     "Rubric": "Инструменты",
     "Subrubric": "Редакторы и прототипирование",
-    "Link": "https://fokus.am",
+    "Link": "https://fokus.am/",
     "Slug": "фокус",
-    "Description": "Сервис для концентрации, фокус-сессий и рабочего тайм-менеджмента.",
-    "AccessStatus": "нужна новая публичная ссылка",
+    "Description": "«Фокус» — конструктор презентаций от Студии Артемия Лебедева: готовые шаблоны, простой редактор и ИИ для быстрой сборки слайдов.",
+    "AccessStatus": "ok",
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffokus.am%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😮"
+    "Emoji": "🎨"
   },
   {
     "Resource": "Craftum",
@@ -1856,7 +1804,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/craftum.png",
     "ScreenshotSource": "local",
     "InfoSource": "curated cleanup",
-    "Emoji": "😲"
+    "Emoji": "🎨"
   },
   {
     "Resource": "Figside",
@@ -1869,7 +1817,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/figside.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🥺"
+    "Emoji": "🎨"
   },
   {
     "Resource": "Framer",
@@ -1882,7 +1830,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/framer.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😦"
+    "Emoji": "🌐"
   },
   {
     "Resource": "gamma.app",
@@ -1895,7 +1843,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fgamma.app%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😧"
+    "Emoji": "🎨"
   },
   {
     "Resource": "Lunacy",
@@ -1908,7 +1856,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/lunacy.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😨"
+    "Emoji": "🎨"
   },
   {
     "Resource": "Monday Hero",
@@ -1916,12 +1864,12 @@ window.CATALOG_DATA = [
     "Subrubric": "Редакторы и прототипирование",
     "Link": "https://mondayhero.io/",
     "Slug": "monday-hero",
-    "Description": "Инструмент для создания бренд-иллюстраций и визуальных систем в едином стиле.",
-    "AccessStatus": "нужна новая публичная ссылка",
+    "Description": "Monday Hero — инструмент для конвертации макетов из Figma, Adobe XD и Sketch в код интерфейса.",
+    "AccessStatus": "ok",
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmondayhero.io%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😰"
+    "Emoji": "🎨"
   },
   {
     "Resource": "Moqups",
@@ -1934,7 +1882,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/moqups.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😥"
+    "Emoji": "🎨"
   },
   {
     "Resource": "Onlinegiftools",
@@ -1947,7 +1895,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/onlinegiftools.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😢"
+    "Emoji": "🎞️"
   },
   {
     "Resource": "Pixo",
@@ -1960,7 +1908,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpixso.net%2Fpixso-vs-figma%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😭"
+    "Emoji": "🎨"
   },
   {
     "Resource": "Protopie",
@@ -1973,7 +1921,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/protopie.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😱"
+    "Emoji": "🎨"
   },
   {
     "Resource": "Ssshape",
@@ -1986,7 +1934,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/ssshape.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😖"
+    "Emoji": "🎨"
   },
   {
     "Resource": "Главред",
@@ -1999,7 +1947,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fglvrd.ru%2F%3Froistat_visit%3D1459634?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😣"
+    "Emoji": "✍️"
   },
   {
     "Resource": "Рандомус",
@@ -2012,7 +1960,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Frandomus.ru%2Fname%3Ftype%3D0%26sex%3D10%26count%3D10?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😞"
+    "Emoji": "🎲"
   },
   {
     "Resource": "ChatGPT + Midjourney",
@@ -2025,7 +1973,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/chatgpt-midjourney.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😓"
+    "Emoji": "✍️"
   },
   {
     "Resource": "Parrotxt",
@@ -2033,12 +1981,12 @@ window.CATALOG_DATA = [
     "Subrubric": "Текст и контент",
     "Link": "https://parrotxt.netlify.app/",
     "Slug": "parrotxt",
-    "Description": "Минималистичный текстовый инструмент для заметок, черновиков и быстрых текстовых операций.",
-    "AccessStatus": "нужна новая публичная ссылка",
+    "Description": "Parrotxt — простой веб-инструмент для генерации текста.",
+    "AccessStatus": "ok",
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fparrotxt.netlify.app%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😩"
+    "Emoji": "✍️"
   },
   {
     "Resource": "Text.ru",
@@ -2051,7 +1999,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ftext.ru%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "😫"
+    "Emoji": "✍️"
   },
   {
     "Resource": "Transitional Hooks",
@@ -2064,7 +2012,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/transitional-hooks.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🥱"
+    "Emoji": "✍️"
   },
   {
     "Resource": "qr-online.ru",
@@ -2077,7 +2025,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/qr-online-ru.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😤"
+    "Emoji": "🔳"
   },
   {
     "Resource": "qrbtf.com",
@@ -2090,7 +2038,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/qrbtf-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😡"
+    "Emoji": "🔳"
   },
   {
     "Resource": "qrcoder.ru",
@@ -2103,7 +2051,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/qrcoder-ru.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🤬"
+    "Emoji": "🔳"
   },
   {
     "Resource": "artivive.com",
@@ -2116,7 +2064,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/artivive-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "😈"
+    "Emoji": "🥽"
   },
   {
     "Resource": "Letary",
@@ -2129,7 +2077,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/letary.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "👿"
+    "Emoji": "🥽"
   },
   {
     "Resource": "Virtual Art Gallery",
@@ -2142,7 +2090,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/virtual-art-gallery.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "💀"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Animated Gif Maker",
@@ -2155,7 +2103,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F1212210028403028415?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "☠️"
+    "Emoji": "🎞️"
   },
   {
     "Resource": "Autoflow",
@@ -2168,7 +2116,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F733902567457592893?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "👻"
+    "Emoji": "🔀"
   },
   {
     "Resource": "Contrast",
@@ -2181,7 +2129,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F748533339900865323?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "👽"
+    "Emoji": "🌗"
   },
   {
     "Resource": "Export Presets",
@@ -2194,7 +2142,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F933557553455124671%2FExport-Presets?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "💡"
+    "Emoji": "📤"
   },
   {
     "Resource": "Figma Walker",
@@ -2207,7 +2155,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F732773762837487095?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🔦"
+    "Emoji": "🧩"
   },
   {
     "Resource": "Filter / effects",
@@ -2220,7 +2168,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F792025380269016893?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🏮"
+    "Emoji": "🧩"
   },
   {
     "Resource": "Find and Replace",
@@ -2233,7 +2181,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F735072959812183643?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🪔"
+    "Emoji": "🔁"
   },
   {
     "Resource": "GiffyCanvas",
@@ -2246,7 +2194,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F803633147991628761?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "📜"
+    "Emoji": "🎞️"
   },
   {
     "Resource": "Image tracer",
@@ -2259,7 +2207,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F735707089415755407?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "📄"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Ionicons (Figma Plugin)",
@@ -2272,7 +2220,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F777817104312450242?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "📃"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Magic Animator",
@@ -2285,7 +2233,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F1520062874404933233?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "📑"
+    "Emoji": "✨"
   },
   {
     "Resource": "Material Design Icons (Figma Plugin)",
@@ -2298,7 +2246,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F775671607185029020?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "📈"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Noise",
@@ -2311,7 +2259,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F752558325552095625?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "📉"
+    "Emoji": "🌫️"
   },
   {
     "Resource": "Pitchdeck Presentation Studio",
@@ -2324,7 +2272,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F838925615018625519?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🗒️"
+    "Emoji": "📊"
   },
   {
     "Resource": "Pixel Perfect (Figma Plugin)",
@@ -2337,7 +2285,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F741300632449121669?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🗓️"
+    "Emoji": "📐"
   },
   {
     "Resource": "Similayer",
@@ -2350,7 +2298,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F735733267883397781?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "📆"
+    "Emoji": "🧩"
   },
   {
     "Resource": "SkewDat",
@@ -2363,7 +2311,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F741472919529947576?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "📅"
+    "Emoji": "🧩"
   },
   {
     "Resource": "SPELLL",
@@ -2376,7 +2324,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F754026612866636376?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🗑️"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Storyset by Freepik",
@@ -2389,7 +2337,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F865232148477039928?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "📌"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "SVG Animate",
@@ -2402,7 +2350,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F980366185319754464?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "📍"
+    "Emoji": "✨"
   },
   {
     "Resource": "TextCutter",
@@ -2415,7 +2363,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F739131137116544548?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "📎"
+    "Emoji": "✂️"
   },
   {
     "Resource": "To Path",
@@ -2428,7 +2376,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F751576264585242935?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🖇️"
+    "Emoji": "🧩"
   },
   {
     "Resource": "Unsplash",
@@ -2441,7 +2389,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Fplugin%2F738454987945972471?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "📏"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Banani",
@@ -2454,20 +2402,20 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/banani.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🗄️"
+    "Emoji": "📐"
   },
   {
     "Resource": "Screenlane",
     "Rubric": "Контент и обучение",
     "Subrubric": "Вдохновение и референсы",
-    "Link": "https://screenlane.com/",
+    "Link": "https://pageflows.com/",
     "Slug": "screenlane",
-    "Description": "Каталог мобильных интерфейсов и экранов приложений для анализа паттернов и референсов.",
-    "AccessStatus": "нужна новая публичная ссылка",
+    "Description": "Page Flows (бывш. Screenlane) — библиотека UI/UX-вдохновения: 100 000+ записанных пользовательских сценариев, экранов и интерфейсных паттернов из топовых приложений.",
+    "AccessStatus": "ok",
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fscreenlane.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🔒"
+    "Emoji": "💡"
   },
   {
     "Resource": "spottedinprod.com",
@@ -2480,7 +2428,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/spottedinprod-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🔓"
+    "Emoji": "💡"
   },
   {
     "Resource": "UI faces",
@@ -2493,20 +2441,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/ui-faces.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🔏"
-  },
-  {
-    "Resource": "UI garage",
-    "Rubric": "Контент и обучение",
-    "Subrubric": "Вдохновение и референсы",
-    "Link": "https://uigarage.net/",
-    "Slug": "ui-garage",
-    "Description": "Каталог интерфейсных решений и паттернов, собранный как библиотека визуальных референсов для дизайнеров.",
-    "AccessStatus": "ok",
-    "Screenshot": "./screenshots/ui-garage.png",
-    "ScreenshotSource": "local",
-    "InfoSource": "site",
-    "Emoji": "🔐"
+    "Emoji": "👤"
   },
   {
     "Resource": "Ui Patterns",
@@ -2519,7 +2454,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/ui-patterns.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🔑"
+    "Emoji": "💡"
   },
   {
     "Resource": "UX tools",
@@ -2532,7 +2467,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/ux-tools.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🗝️"
+    "Emoji": "🧰"
   },
   {
     "Resource": "Art Russia Market",
@@ -2545,7 +2480,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fartrussiamarket.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🔨"
+    "Emoji": "💡"
   },
   {
     "Resource": "Behance",
@@ -2558,7 +2493,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.behance.net%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "🪓"
+    "Emoji": "💡"
   },
   {
     "Resource": "cosmos.so",
@@ -2571,7 +2506,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/cosmos-so.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "⛏️"
+    "Emoji": "💡"
   },
   {
     "Resource": "Designspiration",
@@ -2584,7 +2519,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.designspiration.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⚒️"
+    "Emoji": "💡"
   },
   {
     "Resource": "Dprofile",
@@ -2597,7 +2532,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdprofile.ru%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🛠️"
+    "Emoji": "💡"
   },
   {
     "Resource": "Dribbble",
@@ -2610,7 +2545,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdribbble.com%2FZelenykh?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "🗡️"
+    "Emoji": "💡"
   },
   {
     "Resource": "Moda",
@@ -2618,12 +2553,12 @@ window.CATALOG_DATA = [
     "Subrubric": "Изображения и графика",
     "Link": "https://moda.app/",
     "Slug": "moda",
-    "Description": "AI-инструмент Moda для генерации и стилизации визуалов, модных образов и графических концепций.",
-    "AccessStatus": "страница блокирует automation",
+    "Description": "Moda — ИИ-инструмент для создания редактируемых презентаций, слайдов, постов для соцсетей, PDF и диаграмм на управляемом холсте.",
+    "AccessStatus": "ok",
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmoda.app%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "⚔️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Pinterest",
@@ -2636,7 +2571,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/pinterest.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🔫"
+    "Emoji": "💡"
   },
   {
     "Resource": "Saatchi Art Prints",
@@ -2649,7 +2584,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.saatchiart.com%2Fprints?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🪃"
+    "Emoji": "💡"
   },
   {
     "Resource": "savee.it",
@@ -2662,7 +2597,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fsavee.it%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🏹"
+    "Emoji": "💡"
   },
   {
     "Resource": "Sleek",
@@ -2675,7 +2610,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/sleek.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🪚"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Trendsee",
@@ -2688,20 +2623,20 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ftrendsee.io%2Feng?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🔧"
+    "Emoji": "💡"
   },
   {
     "Resource": "Weavy AI",
     "Rubric": "ИИ",
     "Subrubric": "Изображения и графика",
-    "Link": "https://www.weavy.ai/",
+    "Link": "https://weave.figma.com/",
     "Slug": "weavy-ai",
-    "Description": "Weavy ИИ — сервис для работы с визуальным контентом и креативными AI-сценариями для дизайнеров и маркетинга.",
-    "AccessStatus": "нужна новая публичная ссылка",
+    "Description": "Figma Weave (ранее Weavy) — нодовый ИИ-редактор, объединяющий разные AI-модели и профессиональные инструменты в единый креативный workflow.",
+    "AccessStatus": "ok",
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.weavy.ai%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "web research",
-    "Emoji": "🪛"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "🎨 Подборка книг по дизайну",
@@ -2714,7 +2649,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/подборка-книг-по-дизайну.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🔩"
+    "Emoji": "📚"
   },
   {
     "Resource": "👨🏼‍💻 Подборка книг по управлению командами",
@@ -2727,7 +2662,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/подборка-книг-по-управлению-командами.png",
     "ScreenshotSource": "local",
     "InfoSource": "curated cleanup",
-    "Emoji": "⚙️"
+    "Emoji": "📚"
   },
   {
     "Resource": "Нетология",
@@ -2740,7 +2675,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/нетология.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🗜️"
+    "Emoji": "🎓"
   },
   {
     "Resource": "Яндекс Практикум",
@@ -2753,7 +2688,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpracticum.yandex.ru%2F%3Futm_source%3Dyandex%26utm_medium%3Dcpc%26utm_campaign%3DYan_Sch_RF_Main_Brand_460%26utm_content%3Dsty_search%3As_none%3Acid_66501562%3Agid_4720430462%3Akw_%25D1%258F%25D0%25BD%25D0%25B4%25D0%25B5%25D0%25BA%25D1%2581%2520%25D0%25BF%25D1%2580%25D0%25B0%25D0%25BA%25D1%2582%25D0%25B8%25D0%25BA%25D1%2583%25D0%25BC%3Apid_34462630952%3Aaid_11267854057%3Acrid_0%3Arid_%3Ap_1%3Apty_premium%3Amty_%3Amkw_%3Adty_desktop%3Acgcid_0%3Arn_%25D0%25A0%25D0%25BE%25D1%2581%25D1%2582%25D0%25BE%25D0%25B2-%25D0%25BD%25D0%25B0-%25D0%2594%25D0%25BE%25D0%25BD%25D1%2583%3Arid_39%26utm_term%3D%25D1%258F%25D0%25BD%25D0%25B4%25D0%25B5%25D0%25BA%25D1%2581%2520%25D0%25BF%25D1%2580%25D0%25B0%25D0%25BA%25D1%2582%25D0%25B8%25D0%25BA%25D1%2583%25D0%25BC%26etext%3D2202.M_UgbD6_HPiERi2A68rls7idQWr5zO0vF3TA6kEMILJqdGZ3Y2ZveHhid2F0ZXRk.5ca0b4a417fc7cbaa6271ba2a6de10aee82df557%26yclid%3D4504337562363286024?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⚖️"
+    "Emoji": "🎓"
   },
   {
     "Resource": "BBE Courses",
@@ -2766,7 +2701,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbangbangeducation.ru%2F%3Fysclid%3Dl6idw4bo3s401862448%26category%3Dfavourites%26name%3D?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🔗"
+    "Emoji": "🎓"
   },
   {
     "Resource": "Skillbox",
@@ -2779,7 +2714,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fskillbox.ru%2Fsale%2F2022%2F%3Futm_source%3Dyandex%26utm_medium%3Dcpc%26utm_campaign%3Dall_all_yandex_cpc_poisk_sale_ru_brand_skillbox_64906864%26utm_content%3Dadg_4666625824%7Cad_11285200810%7Cph_33589565264%7Ckey_skillbox%7Cdev_desktop%7Cpst_premium_1%7Crgnid_39_%25D0%25A0%25D0%25BE%25D1%2581%25D1%2582%25D0%25BE%25D0%25B2-%25D0%25BD%25D0%25B0-%25D0%2594%25D0%25BE%25D0%25BD%25D1%2583%7Cplacement_none%7Ccreative_%7Bcreative_name%7D%26utm_term%3Dskillbox%2F%26_openstat%3DZGlyZWN0LnlhbmRleC5ydTs2NDkwNjg2NDsxMTI4NTIwMDgxMDt5YW5kZXgucnU6cHJlbWl1bQ%26yclid%3D16800024091091271679?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⛓️"
+    "Emoji": "🎓"
   },
   {
     "Resource": "Блог Бюро Горбунова",
@@ -2792,7 +2727,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbureau.ru%2Fsoviet%2Filyabirman%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🧲"
+    "Emoji": "📰"
   },
   {
     "Resource": "Блог Яндекс Практикума",
@@ -2805,7 +2740,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fhabr.com%2Fru%2Fcompanies%2Fyandex_praktikum%2Fprofile%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🪜"
+    "Emoji": "📰"
   },
   {
     "Resource": "Блог Skillbox",
@@ -2818,7 +2753,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fskillbox.ru%2Fmedia%2Fdesign%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⚗️"
+    "Emoji": "📰"
   },
   {
     "Resource": "Дизайн на VC",
@@ -2831,7 +2766,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fvc.ru%2Fdesign?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🧫"
+    "Emoji": "📰"
   },
   {
     "Resource": "Дизайн-кабак",
@@ -2844,7 +2779,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmedium.com%2Fdesign-pub?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🔬"
+    "Emoji": "📰"
   },
   {
     "Resource": "Журналус",
@@ -2857,7 +2792,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/журналус.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🔭"
+    "Emoji": "📰"
   },
   {
     "Resource": "Нейросети и боты",
@@ -2870,7 +2805,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/технологии-нейросети-боты.png",
     "ScreenshotSource": "local",
     "InfoSource": "curated cleanup",
-    "Emoji": "📡"
+    "Emoji": "📰"
   },
   {
     "Resource": "Шо за шрифт",
@@ -2883,7 +2818,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/шо-за-шрифт.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "💉"
+    "Emoji": "🔤"
   },
   {
     "Resource": "BBE Media",
@@ -2896,7 +2831,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/bbe-media.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🩸"
+    "Emoji": "📰"
   },
   {
     "Resource": "Figma",
@@ -2909,7 +2844,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/figma.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "💊"
+    "Emoji": "📰"
   },
   {
     "Resource": "TerminArtist",
@@ -2922,7 +2857,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/terminartist.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🩹"
+    "Emoji": "📰"
   },
   {
     "Resource": "UX Notes",
@@ -2935,7 +2870,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/ux-notes.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🩺"
+    "Emoji": "📰"
   },
   {
     "Resource": "UX-journal",
@@ -2948,7 +2883,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fux-journal.ru%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🚪"
+    "Emoji": "📰"
   },
   {
     "Resource": "Дизайн Прост",
@@ -2961,7 +2896,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmusic.yandex.ru%2Falbum%2F8941958%3Fdir%3Ddesc%26activeTab%3Dabout?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🛗"
+    "Emoji": "🎙️"
   },
   {
     "Resource": "Дизайн такой",
@@ -2974,7 +2909,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/дизайн-такой.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🪞"
+    "Emoji": "🎙️"
   },
   {
     "Resource": "Запуск завтра",
@@ -2982,12 +2917,12 @@ window.CATALOG_DATA = [
     "Subrubric": "Подкасты",
     "Link": "https://music.yandex.ru/album/9294155/track/106331692?dir=desc&activeTab=about",
     "Slug": "запуск-завтра",
-    "Description": "Персональные рекомендации, подборки на любой случай, подкасты обо всём на свете и музыкальные новинки — с Яндекс Музыкой всегда есть что послушать!",
-    "AccessStatus": "ok",
+    "Description": "«Запуск завтра» — подкаст о том, как устроены технологии и цифровой мир. Текущая ссылка ведёт на отдельный эпизод в Яндекс Музыке — стоит заменить на страницу подкаста.",
+    "AccessStatus": "нужна новая публичная ссылка",
     "Screenshot": "./screenshots/запуск-завтра.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🪟"
+    "Emoji": "🎙️"
   },
   {
     "Resource": "Суровый веб",
@@ -3000,7 +2935,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/суровый-веб.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🛏️"
+    "Emoji": "🎙️"
   },
   {
     "Resource": "VK Design Podcast",
@@ -3013,7 +2948,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/vk-design-podcast.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🛋️"
+    "Emoji": "🎙️"
   },
   {
     "Resource": "100 лет дизайна",
@@ -3026,7 +2961,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.kinopoisk.ru%2Ffilm%2F1118071%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🪑"
+    "Emoji": "🎬"
   },
   {
     "Resource": "33 слова о дизайне",
@@ -3039,7 +2974,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.kinopoisk.ru%2Ffilm%2F1302273%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🚽"
+    "Emoji": "🎬"
   },
   {
     "Resource": "Абстракция: Искусство дизайна",
@@ -3052,7 +2987,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.kinopoisk.ru%2Fseries%2F1008939%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🪠"
+    "Emoji": "🎬"
   },
   {
     "Resource": "Гельветика",
@@ -3065,7 +3000,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/гельветика.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🚿"
+    "Emoji": "🎬"
   },
   {
     "Resource": "Гениальный дизайн",
@@ -3078,7 +3013,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/гениальный-дизайн.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🛁"
+    "Emoji": "🎬"
   },
   {
     "Resource": "Овеществление",
@@ -3091,7 +3026,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/овеществление.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🪤"
+    "Emoji": "🎬"
   },
   {
     "Resource": "Про современный российский дизайн",
@@ -3104,7 +3039,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/про-современный-российский-дизайн.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🪒"
+    "Emoji": "🎬"
   },
   {
     "Resource": "Рамс",
@@ -3117,7 +3052,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/рамс.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🧴"
+    "Emoji": "🎬"
   },
   {
     "Resource": "Советский дизайн",
@@ -3130,7 +3065,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/советский-дизайн.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🧹"
+    "Emoji": "🎬"
   },
   {
     "Resource": "Урбанизированный",
@@ -3143,7 +3078,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/урбанизированный.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🧺"
+    "Emoji": "🎬"
   },
   {
     "Resource": "Telderi",
@@ -3156,7 +3091,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.telderi.ru%2Fru%2Fsearch%2Fmax%3FmaxType%255Bmaxchannel%255D%3Dtrue%26maxType%255Bmaxchat%255D%3Dtrue?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "manual",
-    "Emoji": "🧻"
+    "Emoji": "💱"
   },
   {
     "Resource": "ИнстаПромо",
@@ -3169,7 +3104,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fxn----btbk5aiy7d.xn--p1ai%2Finsta?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "manual",
-    "Emoji": "🪣"
+    "Emoji": "📣"
   },
   {
     "Resource": "PRTUT",
@@ -3182,7 +3117,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fprtut.ru%2Fnewkabinet%2Flogon.php?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "manual",
-    "Emoji": "🪥"
+    "Emoji": "📣"
   },
   {
     "Resource": "TapLike",
@@ -3195,7 +3130,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fapp.taplike.ru%2Fapp%2Forders%2Fmake-order?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "manual",
-    "Emoji": "🧽"
+    "Emoji": "📣"
   },
   {
     "Resource": "Basil icon",
@@ -3208,7 +3143,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Ffile%2FmYNISacnlKhukMYLXyuZgt%2FBasil-Icons%3Fnode-id%3D465%3A520?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🛒"
+    "Emoji": "🔣"
   },
   {
     "Resource": "CSS.gg",
@@ -3221,7 +3156,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/css-gg.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🚬"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Dencar",
@@ -3234,7 +3169,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1118058608383752260?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⚰️"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Extra Thicc",
@@ -3247,7 +3182,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1219262571291136204?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🪦"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Fancy Icons",
@@ -3260,7 +3195,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1180842678778951311?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⚱️"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Flat icon",
@@ -3273,7 +3208,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.flaticon.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🪬"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Fluent Icons",
@@ -3286,7 +3221,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffluenticons.co%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🗿"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Font Awesome",
@@ -3299,7 +3234,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/font-awesome.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🏧"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Free Social Media 3D Icons - DrawKit",
@@ -3312,7 +3247,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Ffile%2FD35wLdR4JnRX44TtU1drCY%2FFree-Social-Media-3D-Icons---DrawKit%3Fnode-id%3D0%3A1?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🚮"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Heroicons",
@@ -3325,7 +3260,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1143911270904274171?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🚰"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Hicons---+2700-Editable-icons)",
@@ -3338,7 +3273,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1023171235158207826%2FHicon-(Free-icon-pack?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🚹"
+    "Emoji": "🔣"
   },
   {
     "Resource": "IconaMoon",
@@ -3351,7 +3286,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1014143897459418663?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🚺"
+    "Emoji": "🔣"
   },
   {
     "Resource": "icones.js.org",
@@ -3364,7 +3299,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/icones-js-org.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🚻"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Iconfinder",
@@ -3377,7 +3312,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.iconfinder.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🚼"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Iconly",
@@ -3390,7 +3325,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Ffile%2FtiixqktC5DtRNPa6LQuHSq%2FIconly-2.2---600%2B-Essential-icons%3Fnode-id%3D0%3A750?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🚾"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Iconoir",
@@ -3403,7 +3338,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ficonoir.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🛂"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Icons 8",
@@ -3416,7 +3351,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/icons-8.png",
     "ScreenshotSource": "local",
     "InfoSource": "curated cleanup",
-    "Emoji": "🛃"
+    "Emoji": "🔣"
   },
   {
     "Resource": "iconscout.com",
@@ -3429,7 +3364,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ficonscout.com%2Funicons%2Ffree-line-icons%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🛄"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Ionicons",
@@ -3442,7 +3377,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/ionicons.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🛅"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Jam Icons",
@@ -3455,7 +3390,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1037385841144892206?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⚠️"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Kalai",
@@ -3468,7 +3403,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1071678557813409125?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🚸"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Lets Icons",
@@ -3481,7 +3416,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F886554014393250663%2FFree-Icon-Pack-1600%2B-icons?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⛔"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Linear Icons",
@@ -3494,7 +3429,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1191440006557312499?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🚫"
+    "Emoji": "🔣"
   },
   {
     "Resource": "lucide.dev",
@@ -3507,7 +3442,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flucide.dev%2Ficons%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🚳"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Magicoon",
@@ -3520,7 +3455,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1017217801378797988%2Fmagicoon---Modern-icons-library?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🚭"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Majesticons",
@@ -3533,7 +3468,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F937658831428627854%2FMajesticons%2FMajesticons-v2.1.1?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🚯"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Material icons",
@@ -3546,7 +3481,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/material-icons.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🚱"
+    "Emoji": "🔣"
   },
   {
     "Resource": "mui.com",
@@ -3559,7 +3494,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmui.com%2Fmaterial-ui%2Fmaterial-icons%2F%3Ftheme%3DOutlined?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🚷"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Pelaicon",
@@ -3572,7 +3507,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F990314173893326792?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "📵"
+    "Emoji": "🔣"
   },
   {
     "Resource": "phosphoricons.com",
@@ -3585,7 +3520,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fphosphoricons.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🔞"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Remix",
@@ -3598,7 +3533,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Ffile%2FVqbiE2ETWGvvFwTNZGKeUS%2FRemix-Icons-2.5.0---Line-%26-Fill%3Fnode-id%3D0%3A1?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "☢️"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Softies",
@@ -3611,7 +3546,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/softies.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "☣️"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Solar Icons",
@@ -3624,7 +3559,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1166831539721848736%2FSolar-Icons-Set?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⬆️"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Streamline HQ",
@@ -3637,7 +3572,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.streamlinehq.com%2Ficons%2Fstreamline-mini-line?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "↗️"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Tabler Icons",
@@ -3650,7 +3585,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1001757677524930529?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "➡️"
+    "Emoji": "🔣"
   },
   {
     "Resource": "The Noun Project",
@@ -3663,7 +3598,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fthenounproject.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "↘️"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Untitled UI",
@@ -3676,7 +3611,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1114001199549197320?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⬇️"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Vuesax + UIX",
@@ -3689,7 +3624,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1080575099434324867?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "↙️"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Xnix",
@@ -3702,7 +3637,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F866420896007969754?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⬅️"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Fffuel",
@@ -3715,7 +3650,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/fffuel.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "↖️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Freepik",
@@ -3728,7 +3663,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.freepik.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "↕️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Haikei",
@@ -3741,7 +3676,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/haikei.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "↔️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Humaaans",
@@ -3754,7 +3689,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/humaaans.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "↩️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Neoglassmophism",
@@ -3767,7 +3702,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1052476100159812639?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "↪️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "public.work",
@@ -3780,7 +3715,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpublic.work%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⤴️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Storyset",
@@ -3793,7 +3728,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/storyset.png",
     "ScreenshotSource": "local",
     "InfoSource": "curated cleanup",
-    "Emoji": "⤵️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "thiings.co",
@@ -3806,7 +3741,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/thiings-co.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🔃"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "contentcore.xyz",
@@ -3819,7 +3754,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fcontentcore.xyz%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🔄"
+    "Emoji": "📱"
   },
   {
     "Resource": "Jam",
@@ -3832,7 +3767,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/jam.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🔙"
+    "Emoji": "📱"
   },
   {
     "Resource": "Mockdown",
@@ -3845,7 +3780,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mockdown.design%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🔚"
+    "Emoji": "📱"
   },
   {
     "Resource": "mokapus",
@@ -3858,7 +3793,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.artlebedev.ru%2Fmokapus%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🔛"
+    "Emoji": "📱"
   },
   {
     "Resource": "Times Square Billboard",
@@ -3871,7 +3806,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fvisualartjournal.com%2Ftimes-square-billboard%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "🔜"
+    "Emoji": "🪧"
   },
   {
     "Resource": "chir.ag",
@@ -3884,7 +3819,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/chir-ag.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🔝"
+    "Emoji": "🎨"
   },
   {
     "Resource": "cmyk_to_pantone",
@@ -3897,7 +3832,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/cmyk-to-pantone.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🛐"
+    "Emoji": "🎨"
   },
   {
     "Resource": "codebeautify.org",
@@ -3910,7 +3845,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fcodebeautify.org%2Fhex-to-pantone-converter?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⚛️"
+    "Emoji": "🎨"
   },
   {
     "Resource": "color.adobe.com",
@@ -3923,7 +3858,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/color-adobe-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🕉️"
+    "Emoji": "🎨"
   },
   {
     "Resource": "colorbook.io",
@@ -3936,7 +3871,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/colorbook-io.png",
     "ScreenshotSource": "local",
     "InfoSource": "curated cleanup",
-    "Emoji": "✡️"
+    "Emoji": "🎨"
   },
   {
     "Resource": "colordesigner.io",
@@ -3949,7 +3884,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/colordesigner-io.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "☸️"
+    "Emoji": "🎨"
   },
   {
     "Resource": "colorhunt.co",
@@ -3962,7 +3897,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/colorhunt-co.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "☯️"
+    "Emoji": "🎨"
   },
   {
     "Resource": "colorsafe.co",
@@ -3975,7 +3910,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/colorsafe-co.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "✝️"
+    "Emoji": "🎨"
   },
   {
     "Resource": "ColorScheme.ru",
@@ -3988,7 +3923,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/colorscheme-ru.png",
     "ScreenshotSource": "local",
     "InfoSource": "curated cleanup",
-    "Emoji": "☦️"
+    "Emoji": "🎨"
   },
   {
     "Resource": "colorsinspo.com",
@@ -4001,7 +3936,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/colorsinspo-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "☪️"
+    "Emoji": "🎨"
   },
   {
     "Resource": "grabient.com",
@@ -4014,7 +3949,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.grabient.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "☮️"
+    "Emoji": "🎨"
   },
   {
     "Resource": "hexcolorpedia.com",
@@ -4027,7 +3962,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fhexcolorpedia.com%2F%3Froistat_visit%3D1486993?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🕎"
+    "Emoji": "🎨"
   },
   {
     "Resource": "materialpalettes.com",
@@ -4040,7 +3975,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/materialpalettes-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🔯"
+    "Emoji": "🎨"
   },
   {
     "Resource": "Moody",
@@ -4048,12 +3983,12 @@ window.CATALOG_DATA = [
     "Subrubric": "Продуктивность и организация",
     "Link": "https://moody.mjarosz.com/",
     "Slug": "moody",
-    "Description": "Инструмент для настройки фокуса, настроения и рабочего состояния через простые атмосферные сценарии и режимы концентрации.",
-    "AccessStatus": "нужна новая публичная ссылка",
+    "Description": "Moody — телесуфлёр (teleprompter) для Mac: показывает сценарий рядом с камерой незаметно для зрителя и следует за вашим голосом.",
+    "AccessStatus": "ok",
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmoody.mjarosz.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "template",
-    "Emoji": "♈"
+    "Emoji": "🎨"
   },
   {
     "Resource": "palettegenerator.colorion.co",
@@ -4066,20 +4001,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpalettegenerator.colorion.co%2F%3Froistat_visit%3D1486993?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "♉"
-  },
-  {
-    "Resource": "studiored.com",
-    "Rubric": "Инструменты",
-    "Subrubric": "Цвет и палитры",
-    "Link": "https://www.studiored.com/rgb-hex-to-pantone-color-converter/",
-    "Slug": "studiored-com",
-    "Description": "Studio Red RGB/HEX to Pantone Converter — инструмент для подбора ближайших Pantone-цветов по RGB или HEX.",
-    "AccessStatus": "нужна новая публичная ссылка",
-    "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.studiored.com%2Frgb-hex-to-pantone-color-converter%2F?w=1200",
-    "ScreenshotSource": "web",
-    "InfoSource": "curated cleanup",
-    "Emoji": "♊"
+    "Emoji": "🎨"
   },
   {
     "Resource": "Как сделать свой шрифт",
@@ -4092,7 +4014,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/как-сделать-свой-шрифт.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "♋"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Как сделать шрифт: 8 программ типографа",
@@ -4105,7 +4027,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/как-сделать-шрифт-8-программ-типографа.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "♌"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Как создать собственный шрифт",
@@ -4118,7 +4040,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/как-создать-собственный-шрифт.png",
     "ScreenshotSource": "local",
     "InfoSource": "curated cleanup",
-    "Emoji": "♍"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Как токены типографики использовались в дореволюционной России",
@@ -4131,7 +4053,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/как-токены-типографики-использовались-в-дореволюционной-россии.png",
     "ScreenshotSource": "local",
     "InfoSource": "curated cleanup",
-    "Emoji": "♎"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Книга про буквы от Аа до Яя, Юрий Гордон",
@@ -4144,7 +4066,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fvk.com%2Fwall-117088173_3771%3Fysclid%3Dm5z86ngqri932677812?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "♏"
+    "Emoji": "📖"
   },
   {
     "Resource": "Краткие сведения по типографскому делу, Пётр Коломнин",
@@ -4157,7 +4079,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.litres.ru%2Fbook%2Fp-kolomnin%2Fkratkie-svedeniya-po-tipografskomu-delu-560545%2F%3Fysclid%3Dm5z835xvxm107805487?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "♐"
+    "Emoji": "📖"
   },
   {
     "Resource": "Новая типографика. Руководство для современного дизайнера, Ян Чихольд",
@@ -4170,7 +4092,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/новая-типографика-руководство-для-современного-дизайнера-ян-чихольд.png",
     "ScreenshotSource": "local",
     "InfoSource": "curated cleanup",
-    "Emoji": "♑"
+    "Emoji": "📖"
   },
   {
     "Resource": "Создание собственного шрифта? Легко… хоть и нудно",
@@ -4183,7 +4105,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/создание-собственного-шрифта-легко-хоть-и-нудно.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "♒"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Типограф",
@@ -4196,7 +4118,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/типограф.png",
     "ScreenshotSource": "local",
     "InfoSource": "curated cleanup",
-    "Emoji": "♓"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Шрифт говорит. Экспрессия, эмоции и символизм, Стивен Хеллер и Гейл Андерсон",
@@ -4209,7 +4131,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fstore.artlebedev.ru%2Fbooks%2Fshrift-govorit%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⛎"
+    "Emoji": "📖"
   },
   {
     "Resource": "Шрифты Онлайн",
@@ -4222,7 +4144,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/шрифты-онлайн.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🔀"
+    "Emoji": "🔤"
   },
   {
     "Resource": "birdfont.org",
@@ -4235,7 +4157,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/birdfont-org.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🔁"
+    "Emoji": "🔤"
   },
   {
     "Resource": "bitfontmaker",
@@ -4248,7 +4170,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/bitfontmaker.png",
     "ScreenshotSource": "local",
     "InfoSource": "curated cleanup",
-    "Emoji": "🔂"
+    "Emoji": "🔤"
   },
   {
     "Resource": "calligraphr.com",
@@ -4261,7 +4183,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/calligraphr-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "▶️"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Creating a font from scratch: A detailed guide and tips for choosing software",
@@ -4274,7 +4196,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmedium.com%2Ftypetype%2Fcreating-a-font-from-scratch-a-detailed-guide-and-tips-for-choosing-software-5394ecab604d?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⏩"
+    "Emoji": "🔤"
   },
   {
     "Resource": "fontforge.org",
@@ -4287,7 +4209,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/fontforge-org.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "⏭️"
+    "Emoji": "🔤"
   },
   {
     "Resource": "fontlab.com",
@@ -4300,7 +4222,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.fontlab.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⏯️"
+    "Emoji": "🔤"
   },
   {
     "Resource": "fonts.com",
@@ -4313,7 +4235,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.1001fonts.com%2F%3Froistat_visit%3D1489109?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "◀️"
+    "Emoji": "🔤"
   },
   {
     "Resource": "fonts.uprock.ru",
@@ -4326,7 +4248,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/fonts-uprock-ru.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "⏪"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Fontshare",
@@ -4339,7 +4261,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/fontshare.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "⏮️"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Fontspace",
@@ -4352,7 +4274,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.fontspace.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🔼"
+    "Emoji": "🔤"
   },
   {
     "Resource": "glyphsapp.com",
@@ -4365,7 +4287,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fglyphsapp.com%2Ffeatures?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⏫"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Google Fonts",
@@ -4378,7 +4300,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/google-fonts.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🔽"
+    "Emoji": "🔤"
   },
   {
     "Resource": "icomoon.io",
@@ -4391,7 +4313,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/icomoon-io.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "⏬"
+    "Emoji": "🔤"
   },
   {
     "Resource": "paratype.ru",
@@ -4404,7 +4326,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/paratype-ru.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "⏸️"
+    "Emoji": "🔤"
   },
   {
     "Resource": "robofont.com",
@@ -4417,7 +4339,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/robofont-com.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "⏹️"
+    "Emoji": "🔤"
   },
   {
     "Resource": "type.today",
@@ -4430,7 +4352,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ftype.today%2Fru?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⏺️"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Typewolf",
@@ -4443,7 +4365,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.typewolf.com%2F%3Froistat_visit%3D1489109?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⏏️"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Typographical Printing-Surfaces: The Technology and Mechanism of their Production",
@@ -4456,7 +4378,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Farchive.org%2Fdetails%2FLegrosGrantTypographicalPrintingSurfaces1916?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🎦"
+    "Emoji": "📖"
   },
   {
     "Resource": "Velvetyne",
@@ -4469,7 +4391,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/http%3A%2F%2Fvelvetyne.fr%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "🔅"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Wordmark",
@@ -4482,7 +4404,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/wordmark.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "🔆"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Законы UX",
@@ -4495,7 +4417,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/законы-ux.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "📶"
+    "Emoji": "📐"
   },
   {
     "Resource": "Набор сеток для разных платформ",
@@ -4508,7 +4430,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fkkuistore.gumroad.com%2Fl%2FuLXAe?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "📳"
+    "Emoji": "📐"
   },
   {
     "Resource": "Android Nougat GUI",
@@ -4521,7 +4443,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Ffile%2Fr1B652UWZyqWhoHPFjFwd8%2FAndroid-Nougat-GUI%3Fnode-id%3D0%3A1?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "📴"
+    "Emoji": "🧱"
   },
   {
     "Resource": "Bootstrap",
@@ -4534,7 +4456,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/bootstrap.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "♀️"
+    "Emoji": "🧱"
   },
   {
     "Resource": "Figma community",
@@ -4547,7 +4469,7 @@ window.CATALOG_DATA = [
     "Screenshot": "./screenshots/figma-community.png",
     "ScreenshotSource": "local",
     "InfoSource": "site",
-    "Emoji": "♂️"
+    "Emoji": "🧩"
   },
   {
     "Resource": "Freebiesui",
@@ -4560,7 +4482,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffreebiesui.com%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "⚧️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "IOS Image Upload",
@@ -4573,7 +4495,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Ffile%2Fz3Q1yK9SzrA0VZYTGiqyzX%2FIOS-Image-Upload%3Fnode-id%3D0%3A1?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "✖️"
+    "Emoji": "🧱"
   },
   {
     "Resource": "Templatery",
@@ -4586,7 +4508,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.templatery.co%2F?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "➕"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "Vienna RDS Components",
@@ -4599,7 +4521,7 @@ window.CATALOG_DATA = [
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2Ffile%2F10HN0KqOF4UT3JVtygksND%2F%25F0%259F%2595%25B9-Vienna-RDS-Components%3Fnode-id%3D63883%3A90776?w=1200",
     "ScreenshotSource": "web",
     "InfoSource": "curated cleanup",
-    "Emoji": "➖"
+    "Emoji": "🧱"
   },
   {
     "Resource": "Freepik AI Icon Generator",
@@ -4612,7 +4534,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "official",
-    "Emoji": "➗"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Recraft AI Icon Generator",
@@ -4625,7 +4547,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "official",
-    "Emoji": "🟰"
+    "Emoji": "🔣"
   },
   {
     "Resource": "IconAI",
@@ -4638,7 +4560,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "official",
-    "Emoji": "♾️"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Octoicons",
@@ -4651,7 +4573,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "official",
-    "Emoji": "‼️"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Aigital SVG-иконка",
@@ -4664,7 +4586,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "official",
-    "Emoji": "⁉️"
+    "Emoji": "🔣"
   },
   {
     "Resource": "Mobbin",
@@ -4677,7 +4599,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "perplexity",
-    "Emoji": "❓"
+    "Emoji": "💡"
   },
   {
     "Resource": "Awwwards",
@@ -4690,7 +4612,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "perplexity",
-    "Emoji": "❔"
+    "Emoji": "💡"
   },
   {
     "Resource": "SiteInspire",
@@ -4703,20 +4625,20 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "perplexity",
-    "Emoji": "❕"
+    "Emoji": "💡"
   },
   {
     "Resource": "UI Movement",
     "Rubric": "Контент и обучение",
     "Subrubric": "Вдохновение и референсы",
-    "Link": "https://uimovement.com/",
+    "Link": "https://pageflows.com/",
     "Slug": "ui-movement",
-    "Description": "Кураторская подборка UI-анимаций, микровзаимодействий и интерфейсных решений с тегами по элементам и сценариям.",
+    "Description": "Page Flows (бывш. UI Movement) — библиотека UI/UX-вдохновения: записанные пользовательские сценарии (user flows), экраны и анимации интерфейсов из топовых приложений.",
     "AccessStatus": "ok",
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "perplexity",
-    "Emoji": "❗"
+    "Emoji": "💡"
   },
   {
     "Resource": "Godly",
@@ -4729,7 +4651,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "perplexity",
-    "Emoji": "〰️"
+    "Emoji": "💡"
   },
   {
     "Resource": "Lapa Ninja",
@@ -4742,7 +4664,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "perplexity",
-    "Emoji": "💱"
+    "Emoji": "💡"
   },
   {
     "Resource": "Bento Grids",
@@ -4755,7 +4677,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "perplexity",
-    "Emoji": "💲"
+    "Emoji": "💡"
   },
   {
     "Resource": "Design Spells",
@@ -4768,7 +4690,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "perplexity",
-    "Emoji": "⚕️"
+    "Emoji": "💡"
   },
   {
     "Resource": "60fps.design",
@@ -4781,7 +4703,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "perplexity",
-    "Emoji": "♻️"
+    "Emoji": "💡"
   },
   {
     "Resource": "Civitai",
@@ -4794,7 +4716,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "⚜️"
+    "Emoji": "🖼️"
   },
   {
     "Resource": "ElevenLabs API Analytics",
@@ -4807,7 +4729,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "🔱"
+    "Emoji": "📊"
   },
   {
     "Resource": "OpenAI Platform",
@@ -4820,7 +4742,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "📛"
+    "Emoji": "🤖"
   },
   {
     "Resource": "Deceptive Design Types",
@@ -4833,7 +4755,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "🔰"
+    "Emoji": "⚠️"
   },
   {
     "Resource": "MusicAlligator",
@@ -4846,7 +4768,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "⭕"
+    "Emoji": "📣"
   },
   {
     "Resource": "Google UX Design Professional Certificate",
@@ -4859,7 +4781,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "✅"
+    "Emoji": "🎓"
   },
   {
     "Resource": "Foundations of User Experience (UX) Design",
@@ -4872,7 +4794,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "☑️"
+    "Emoji": "🎓"
   },
   {
     "Resource": "Советы Бюро",
@@ -4885,7 +4807,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "✔️"
+    "Emoji": "📰"
   },
   {
     "Resource": "UX Journal UI Design",
@@ -4898,7 +4820,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "❌"
+    "Emoji": "📰"
   },
   {
     "Resource": "Apple Design Gallery 2026",
@@ -4911,7 +4833,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "❎"
+    "Emoji": "📰"
   },
   {
     "Resource": "A List Apart",
@@ -4924,7 +4846,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "➰"
+    "Emoji": "📰"
   },
   {
     "Resource": "Dsgners: Denis Zelenykh",
@@ -4937,7 +4859,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "➿"
+    "Emoji": "📰"
   },
   {
     "Resource": "Type.Today Journal",
@@ -4950,7 +4872,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "〽️"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Ководство",
@@ -4963,7 +4885,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "✳️"
+    "Emoji": "📰"
   },
   {
     "Resource": "Habr Design",
@@ -4976,7 +4898,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "✴️"
+    "Emoji": "📰"
   },
   {
     "Resource": "Type Journal",
@@ -4989,7 +4911,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "❇️"
+    "Emoji": "🔤"
   },
   {
     "Resource": "Infogra",
@@ -5002,7 +4924,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "©️"
+    "Emoji": "📰"
   },
   {
     "Resource": "Tilda Education",
@@ -5015,7 +4937,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "®️"
+    "Emoji": "📰"
   },
   {
     "Resource": "Material 3",
@@ -5028,7 +4950,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "™️"
+    "Emoji": "📐"
   },
   {
     "Resource": "Product Hunt",
@@ -5041,7 +4963,7 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "#️⃣"
+    "Emoji": "🚀"
   },
   {
     "Resource": "Muzli Blog",
@@ -5054,6 +4976,6 @@ window.CATALOG_DATA = [
     "Screenshot": "",
     "ScreenshotSource": "",
     "InfoSource": "user",
-    "Emoji": "*️⃣"
+    "Emoji": "📰"
   }
 ];
