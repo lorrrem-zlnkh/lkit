@@ -650,19 +650,45 @@ function switchToCatalogMode(rubric) {
   render();
 }
 
-function initDictFromHash() {
-  const hash = location.hash;
-  if (!hash.startsWith("#dict-")) return;
-  const id = hash.slice(6);
-  switchToDictMode();
-  setTimeout(() => {
-    const el = document.getElementById(`dict-${id}`);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "center" });
-      el.classList.add("dict-term--highlight");
-    }
-  }, 100);
+function highlightDictTerm(id) {
+  const el = document.getElementById(`dict-${id}`);
+  if (!el) return;
+
+  document
+    .querySelectorAll(".dict-term--highlight")
+    .forEach((node) => node.classList.remove("dict-term--highlight"));
+
+  el.scrollIntoView({ behavior: "smooth", block: "center" });
+  // restart the animation if the same term is targeted again
+  void el.offsetWidth;
+  el.classList.add("dict-term--highlight");
 }
+
+function openDictHash(hash) {
+  if (!hash.startsWith("#dict-")) return;
+  let id = hash.slice(6);
+  try {
+    id = decodeURIComponent(id);
+  } catch (e) {
+    /* keep raw id if it isn't valid percent-encoding */
+  }
+  if (!isDictMode()) {
+    switchToDictMode();
+  } else if (activeDictLetter || searchInput.value.trim()) {
+    // make sure the targeted term is rendered before highlighting
+    activeDictLetter = "";
+    searchInput.value = "";
+    renderDictLetterTabs();
+    renderDict();
+  }
+  setTimeout(() => highlightDictTerm(id), 100);
+}
+
+function initDictFromHash() {
+  openDictHash(location.hash);
+}
+
+window.addEventListener("hashchange", () => openDictHash(location.hash));
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 

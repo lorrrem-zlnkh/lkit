@@ -361,10 +361,21 @@ select {
 }
 
 .dict-term--highlight {
-  background: rgba(167, 139, 250, 0.08);
   border-radius: var(--radius-md);
   padding: 14px 16px;
   margin: 0 -16px;
+  animation: dict-term-flash 2s ease-out forwards;
+}
+
+@keyframes dict-term-flash {
+  0% {
+    background: rgba(167, 139, 250, 0.28);
+    box-shadow: 0 0 0 1px rgba(167, 139, 250, 0.45);
+  }
+  100% {
+    background: rgba(167, 139, 250, 0);
+    box-shadow: 0 0 0 1px rgba(167, 139, 250, 0);
+  }
 }
 
 .dict-term-header {
