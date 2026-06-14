@@ -580,7 +580,8 @@ function renderDict() {
 
       const def = document.createElement("p");
       def.className = "dict-term-def";
-      def.textContent = entry.definition;
+      const defText = entry.definition;
+      def.textContent = defText.charAt(0).toUpperCase() + defText.slice(1);
 
       row.append(termEl, def);
       group.append(row);
