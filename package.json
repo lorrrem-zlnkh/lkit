@@ -5,5 +5,8 @@
   "scripts": {
     "dict:build": "node scripts/build_dictionary.mjs",
     "dict:expand": "node scripts/expand_dictionary.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.1"
   }
 }
