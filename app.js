@@ -5,6 +5,7 @@ const ALL_LABEL = "Все";
 const DEFAULT_RUBRIC = "Инструменты";
 const DICT_MODE = "__dict__";
 const BLOG_URL = "https://t.me/lorrrem";
+const DESIGN_SYSTEMS_URL = "https://dsg.lorrrem.ru/";
 
 const searchInput = document.querySelector("#search-input");
 const grid = document.querySelector("#catalog-grid");
@@ -296,6 +297,14 @@ function renderRubrics() {
     switchToDictMode();
   });
   rubricNav.append(dictButton);
+
+  const dsButton = document.createElement("a");
+  dsButton.className = "rubric-button rubric-button--blog";
+  dsButton.href = DESIGN_SYSTEMS_URL;
+  dsButton.target = "_blank";
+  dsButton.rel = "noreferrer";
+  dsButton.innerHTML = `<span>Каталог дизайн-систем</span><span class="rubric-button-icon">🏗️</span>`;
+  rubricNav.append(dsButton);
 
   const blogButton = document.createElement("a");
   blogButton.className = "rubric-button rubric-button--blog";
