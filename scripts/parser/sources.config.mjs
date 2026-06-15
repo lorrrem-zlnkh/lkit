@@ -35,6 +35,13 @@ export const SOURCES = [
   { name: "Викисловарь: Компьютерные сети", type: "wiktionary-category", lang: "ru", category: "Компьютерные сети/ru" },
   { name: "Викисловарь: Компьютерные игры", type: "wiktionary-category", lang: "ru", category: "Компьютерные игры/ru" },
   { name: "Викисловарь: Криптография", type: "wiktionary-category", lang: "ru", category: "Криптография/ru" },
+  { name: "Викисловарь: Шифрование", type: "wiktionary-category", lang: "ru", category: "Шифрование/ru" },
+  { name: "Викисловарь: Языки программирования", type: "wiktionary-category", lang: "ru", category: "Языки программирования/ru" },
+  { name: "Викисловарь: Операционные системы", type: "wiktionary-category", lang: "ru", category: "Операционные системы/ru" },
+  { name: "Викисловарь: Алгоритмы", type: "wiktionary-category", lang: "ru", category: "Алгоритмы/ru" },
+  { name: "Викисловарь: Нейронные сети", type: "wiktionary-category", lang: "ru", category: "Нейронные сети/ru" },
+  { name: "Викисловарь: Данные", type: "wiktionary-category", lang: "ru", category: "Данные/ru" },
+  { name: "Викисловарь: Файлы", type: "wiktionary-category", lang: "ru", category: "Файлы/ru" },
 
   // Wikipedia-dl-глоссарии выключены: в полных статьях списки определений мешают
   // настоящие термины с заголовками разделов («Критика рекламы ООП» и т. п.).
