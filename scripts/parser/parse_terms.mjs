@@ -192,6 +192,7 @@ function termLooksOk(term) {
   if (!/[a-zа-яё]/i.test(term)) return false;          // в термине должна быть хотя бы одна буква
   if (term.split(/\s+/).length > FILTERS.maxTermWords) return false; // не словосочетание-заголовок
   if (/[.;,]$/.test(term)) return false;               // не должен оканчиваться на пунктуацию (обрывок/ссылка)
+  if (/[-‑]$/.test(term)) return false;                // фрагмент-приставка вроде «Интернет-»
   if (/[«»"]/.test(term)) return false;                // кавычки — обычно фраза-заголовок, а не термин
   if (/\/\/|\d{4}|с\.\s*\d/i.test(term)) return false; // признаки библиографической ссылки
   return true;
