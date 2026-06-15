@@ -147,9 +147,22 @@ select {
 
 .sidebar-seo {
   margin: 0;
-  color: var(--text);
+  color: var(--muted);
   font-size: 12.5px;
   line-height: 1.5;
+}
+
+/* Swap the sidebar heading in dictionary mode */
+.sidebar-seo--dict {
+  display: none;
+}
+
+body.dict-active .sidebar-seo--catalog {
+  display: none;
+}
+
+body.dict-active .sidebar-seo--dict {
+  display: block;
 }
 
 .sidebar-copyright {
