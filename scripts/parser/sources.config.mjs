@@ -42,6 +42,9 @@ export const SOURCES = [
   { name: "Викисловарь: Нейронные сети", type: "wiktionary-category", lang: "ru", category: "Нейронные сети/ru" },
   { name: "Викисловарь: Данные", type: "wiktionary-category", lang: "ru", category: "Данные/ru" },
   { name: "Викисловарь: Файлы", type: "wiktionary-category", lang: "ru", category: "Файлы/ru" },
+  { name: "Викисловарь: Информационная безопасность", type: "wiktionary-category", lang: "ru", category: "Информационная безопасность/ru" },
+  { name: "Викисловарь: Кодирование", type: "wiktionary-category", lang: "ru", category: "Кодирование/ru" },
+  { name: "Викисловарь: Носители", type: "wiktionary-category", lang: "ru", category: "Носители/ru" },
 
   // Wikipedia-dl-глоссарии выключены: в полных статьях списки определений мешают
   // настоящие термины с заголовками разделов («Критика рекламы ООП» и т. п.).
