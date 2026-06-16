@@ -42,6 +42,7 @@ function normTerm(t) {
   return String(t)
     .toLowerCase()
     .replace(/ё/g, "е")
+    .replace(/э/g, "е")          // хэш ≡ хеш, мэйл ≡ мейл — варианты написания не плодим
     .split("(")[0]
     .replace(/[«»"'`]/g, "")
     .replace(/[^a-zа-я0-9 +#/.-]/g, " ")
