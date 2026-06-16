@@ -45,6 +45,22 @@ export const SOURCES = [
   { name: "Викисловарь: Информационная безопасность", type: "wiktionary-category", lang: "ru", category: "Информационная безопасность/ru" },
   { name: "Викисловарь: Кодирование", type: "wiktionary-category", lang: "ru", category: "Кодирование/ru" },
   { name: "Викисловарь: Носители", type: "wiktionary-category", lang: "ru", category: "Носители/ru" },
+  // углубление в Викисловарь (свип категорий)
+  { name: "Викисловарь: Интерфейс", type: "wiktionary-category", lang: "ru", category: "Интерфейс/ru" },
+  { name: "Викисловарь: Браузеры", type: "wiktionary-category", lang: "ru", category: "Браузеры/ru" },
+  { name: "Викисловарь: Сайты", type: "wiktionary-category", lang: "ru", category: "Сайты/ru" },
+  { name: "Викисловарь: Программы", type: "wiktionary-category", lang: "ru", category: "Программы/ru" },
+  { name: "Викисловарь: Видеоигры", type: "wiktionary-category", lang: "ru", category: "Видеоигры/ru" },
+  { name: "Викисловарь: Процессоры", type: "wiktionary-category", lang: "ru", category: "Процессоры/ru" },
+  { name: "Викисловарь: Клавиатура", type: "wiktionary-category", lang: "ru", category: "Клавиатура/ru" },
+  { name: "Викисловарь: Мобильные телефоны", type: "wiktionary-category", lang: "ru", category: "Мобильные телефоны/ru" },
+  { name: "Викисловарь: Поисковая система", type: "wiktionary-category", lang: "ru", category: "Поисковая система/ru" },
+  { name: "Викисловарь: Поисковые машины", type: "wiktionary-category", lang: "ru", category: "Поисковые машины/ru" },
+  { name: "Викисловарь: Принтеры", type: "wiktionary-category", lang: "ru", category: "Принтеры/ru" },
+  { name: "Викисловарь: Сжатие", type: "wiktionary-category", lang: "ru", category: "Сжатие/ru" },
+  { name: "Викисловарь: Шрифты", type: "wiktionary-category", lang: "ru", category: "Шрифты/ru" },
+  { name: "Викисловарь: Видеотехника", type: "wiktionary-category", lang: "ru", category: "Видеотехника/ru" },
+  { name: "Викисловарь: Виртуальность", type: "wiktionary-category", lang: "ru", category: "Виртуальность/ru" },
 
   // Wikipedia-dl-глоссарии выключены: в полных статьях списки определений мешают
   // настоящие термины с заголовками разделов («Критика рекламы ООП» и т. п.).
