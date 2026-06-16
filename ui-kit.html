@@ -1,0 +1,1072 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lkit — UI Kit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      /* ─── UI Kit shell ──────────────────────────────────────────────────────── */
+
+      /* Переопределяем [hidden] только для секций сайта, не для kit-hidden */
+      .kit-hidden { display: none !important; }
+
+      body {
+        background:
+          radial-gradient(circle at top left, rgba(34, 197, 94, 0.06), transparent 28%),
+          radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.1), transparent 24%),
+          linear-gradient(180deg, #090b0e, #0b0d10 100%);
+      }
+
+      /* Страница-обёртка */
+      .kit-page {
+        max-width: 1060px;
+        margin: 0 auto;
+        padding: 48px 32px 96px;
+      }
+
+      /* Заголовок страницы */
+      .kit-header {
+        margin-bottom: 64px;
+        padding-bottom: 32px;
+        border-bottom: 1px solid var(--line-strong);
+      }
+
+      .kit-header h1 {
+        margin: 0 0 6px;
+        font-size: 36px;
+        font-weight: 800;
+        letter-spacing: -0.04em;
+        color: var(--text);
+      }
+
+      .kit-header p {
+        margin: 0;
+        color: var(--muted);
+        font: 500 13px/1.5 var(--mono);
+      }
+
+      /* Секция */
+      .kit-section {
+        margin-bottom: 72px;
+      }
+
+      .kit-section-title {
+        margin: 0 0 28px;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--muted);
+        font-family: var(--mono);
+      }
+
+      /* Группа компонентов с меткой */
+      .kit-group {
+        margin-bottom: 40px;
+      }
+
+      .kit-group-label {
+        margin: 0 0 12px;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: var(--mono);
+        color: var(--muted);
+        opacity: 0.6;
+      }
+
+      /* Горизонтальный ряд элементов */
+      .kit-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        align-items: flex-start;
+      }
+
+      /* Вертикальный столбец */
+      .kit-col {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      /* Плашка-аннотация под элементом */
+      .kit-annotation {
+        margin-top: 6px;
+        font-size: 11px;
+        font-family: var(--mono);
+        color: var(--muted);
+        opacity: 0.5;
+      }
+
+      /* Обёртка для одного компонента + его метки */
+      .kit-item {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      /* Сетка токенов */
+      .kit-tokens {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 12px;
+      }
+
+      .kit-token {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .kit-token-swatch {
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid var(--line);
+      }
+
+      .kit-token-name {
+        font: 500 11px/1.3 var(--mono);
+        color: var(--muted);
+      }
+
+      .kit-token-value {
+        font: 400 11px/1.3 var(--mono);
+        color: var(--muted);
+        opacity: 0.55;
+      }
+
+      /* Разделитель секций */
+      .kit-divider {
+        height: 1px;
+        background: var(--line);
+        margin: 56px 0;
+      }
+
+      /* Фейковый сайдбар для демонстрации навигации */
+      .kit-sidebar-demo {
+        width: 256px;
+        padding: 20px 16px;
+        border-radius: var(--radius-lg);
+        border: 1px solid var(--line);
+        background: linear-gradient(180deg, rgba(19, 23, 29, 0.96), rgba(12, 15, 20, 0.96));
+      }
+
+      /* Демо-карточка без анимации для каталога */
+      .kit-card-row {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 14px;
+      }
+
+      /* Принудительный hover через класс */
+      .kit-force-hover.resource-card {
+        transform: translateY(-2px);
+        border-color: var(--line-strong);
+        background: linear-gradient(180deg, var(--card-hover), #18202a);
+      }
+
+      /* Принудительный hover через класс для subtab */
+      .kit-force-hover.subtab-button {
+        background: rgba(255, 255, 255, 0.06);
+        border-color: var(--line-strong);
+      }
+
+      /* Принудительный hover для rubric */
+      .kit-force-hover.rubric-button {
+        background: rgba(255, 255, 255, 0.04);
+        border-color: var(--line);
+      }
+
+      /* Принудительный hover для share-кнопки */
+      .kit-share-hover.dict-share-btn {
+        opacity: 1;
+        color: var(--accent);
+        border-color: var(--accent);
+        background: var(--accent-soft);
+      }
+
+      /* Принудительный hover для dict-term */
+      .kit-term-hover .dict-share-btn {
+        opacity: 1;
+      }
+
+      /* Highlight-анимация (зафиксирована в начальном состоянии) */
+      .kit-dict-highlight {
+        border-radius: var(--radius-md);
+        padding: 14px 16px;
+        margin: 0 -16px;
+        background: rgba(167, 139, 250, 0.28);
+        box-shadow: 0 0 0 1px rgba(167, 139, 250, 0.45);
+      }
+
+      /* Секция типографики */
+      .kit-type-row {
+        display: grid;
+        gap: 20px;
+      }
+
+      .kit-type-item {
+        display: flex;
+        align-items: baseline;
+        gap: 24px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .kit-type-meta {
+        min-width: 180px;
+        font: 500 11px/1.4 var(--mono);
+        color: var(--muted);
+        opacity: 0.5;
+        flex-shrink: 0;
+      }
+
+      /* Radius showcase */
+      .kit-radius-row {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        align-items: flex-end;
+      }
+
+      .kit-radius-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .kit-radius-swatch {
+        width: 80px;
+        height: 80px;
+        background: var(--panel);
+        border: 1px solid var(--line-strong);
+      }
+
+      /* Shadow */
+      .kit-shadow-box {
+        width: 200px;
+        height: 100px;
+        border-radius: var(--radius-md);
+        background: var(--card);
+        box-shadow: var(--shadow);
+        border: 1px solid var(--line);
+      }
+
+      /* Burger demo */
+      .kit-burger-demo {
+        display: flex;
+        gap: 32px;
+        align-items: flex-start;
+      }
+
+      /* Мобильный топбар-демо */
+      .kit-topbar-demo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 12px 16px;
+        border-radius: 12px;
+        background: rgba(11, 13, 16, 0.85);
+        border: 1px solid var(--line);
+        backdrop-filter: blur(16px);
+        width: 340px;
+      }
+
+      /* Копия mobile brand для демо */
+      .kit-mobile-brand {
+        display: inline-flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kit-page">
+
+      <!-- ─── Заголовок ────────────────────────────────────────────────────────── -->
+      <header class="kit-header">
+        <h1>Lkit — UI Kit</h1>
+        <p>Дизайн-система проекта · Все компоненты, токены и состояния в одном месте</p>
+      </header>
+
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <!-- 1. ЦВЕТА                                                               -->
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <section class="kit-section">
+        <h2 class="kit-section-title">01 — Цвета / CSS Tokens</h2>
+
+        <div class="kit-group">
+          <p class="kit-group-label">Фоны</p>
+          <div class="kit-tokens">
+            <div class="kit-token">
+              <div class="kit-token-swatch" style="background: var(--bg)"></div>
+              <span class="kit-token-name">--bg</span>
+              <span class="kit-token-value">#0b0d10</span>
+            </div>
+            <div class="kit-token">
+              <div class="kit-token-swatch" style="background: var(--bg-soft)"></div>
+              <span class="kit-token-name">--bg-soft</span>
+              <span class="kit-token-value">#12161b</span>
+            </div>
+            <div class="kit-token">
+              <div class="kit-token-swatch" style="background: var(--panel)"></div>
+              <span class="kit-token-name">--panel</span>
+              <span class="kit-token-value">#101419</span>
+            </div>
+            <div class="kit-token">
+              <div class="kit-token-swatch" style="background: var(--panel-2)"></div>
+              <span class="kit-token-name">--panel-2</span>
+              <span class="kit-token-value">#141920</span>
+            </div>
+            <div class="kit-token">
+              <div class="kit-token-swatch" style="background: var(--card)"></div>
+              <span class="kit-token-name">--card</span>
+              <span class="kit-token-value">#171d25</span>
+            </div>
+            <div class="kit-token">
+              <div class="kit-token-swatch" style="background: var(--card-hover)"></div>
+              <span class="kit-token-name">--card-hover</span>
+              <span class="kit-token-value">#1c2430</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="kit-group">
+          <p class="kit-group-label">Текст</p>
+          <div class="kit-tokens">
+            <div class="kit-token">
+              <div class="kit-token-swatch" style="background: var(--text)"></div>
+              <span class="kit-token-name">--text</span>
+              <span class="kit-token-value">#f3f5f7</span>
+            </div>
+            <div class="kit-token">
+              <div class="kit-token-swatch" style="background: var(--muted)"></div>
+              <span class="kit-token-name">--muted</span>
+              <span class="kit-token-value">#8e9aa8</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="kit-group">
+          <p class="kit-group-label">Акцент</p>
+          <div class="kit-tokens">
+            <div class="kit-token">
+              <div class="kit-token-swatch" style="background: var(--accent)"></div>
+              <span class="kit-token-name">--accent</span>
+              <span class="kit-token-value">#7dd3fc</span>
+            </div>
+            <div class="kit-token">
+              <div class="kit-token-swatch" style="background: var(--accent-soft)"></div>
+              <span class="kit-token-name">--accent-soft</span>
+              <span class="kit-token-value">rgba(125,211,252,.12)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="kit-group">
+          <p class="kit-group-label">Разделители</p>
+          <div class="kit-tokens">
+            <div class="kit-token">
+              <div class="kit-token-swatch" style="background: var(--line)"></div>
+              <span class="kit-token-name">--line</span>
+              <span class="kit-token-value">rgba(255,255,255,.08)</span>
+            </div>
+            <div class="kit-token">
+              <div class="kit-token-swatch" style="background: var(--line-strong)"></div>
+              <span class="kit-token-name">--line-strong</span>
+              <span class="kit-token-value">rgba(255,255,255,.16)</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="kit-divider"></div>
+
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <!-- 2. ТИПОГРАФИКА                                                         -->
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <section class="kit-section">
+        <h2 class="kit-section-title">02 — Типографика</h2>
+
+        <div class="kit-type-row">
+          <!-- Manrope 800 -->
+          <div class="kit-type-item">
+            <span class="kit-type-meta">Manrope 800 · 36px · −0.04em</span>
+            <span style="font-size:36px; font-weight:800; letter-spacing:-0.04em;">Заголовок страницы</span>
+          </div>
+
+          <!-- Manrope 700 -->
+          <div class="kit-type-item">
+            <span class="kit-type-meta">Manrope 700 · 22px · −0.04em</span>
+            <span style="font-size:22px; font-weight:700; letter-spacing:-0.04em;">Бренд / логотип</span>
+          </div>
+
+          <!-- card-title -->
+          <div class="kit-type-item">
+            <span class="kit-type-meta">Manrope 700 · 21px · −0.03em · card-title</span>
+            <span class="card-title">Название карточки</span>
+          </div>
+
+          <!-- dict-term-title -->
+          <div class="kit-type-item">
+            <span class="kit-type-meta">Manrope 700 · 17px · −0.02em · dict-term-title</span>
+            <span class="dict-term-title">Термин словаря</span>
+          </div>
+
+          <!-- Тело текста -->
+          <div class="kit-type-item">
+            <span class="kit-type-meta">Manrope 400 · 15px · lh 1.7 · dict-term-def</span>
+            <p class="dict-term-def" style="margin:0;">Определение термина в разговорном стиле на 2–3 предложения. Используется в IT-словаре как основной текст определения.</p>
+          </div>
+
+          <!-- card-description -->
+          <div class="kit-type-item">
+            <span class="kit-type-meta">Manrope 400 · 14px · lh 1.6 · card-description (--muted)</span>
+            <p class="card-description" style="margin:0;">Краткое описание инструмента или ресурса, выводится под названием карточки в каталоге.</p>
+          </div>
+
+          <!-- Моно: мета карточки -->
+          <div class="kit-type-item">
+            <span class="kit-type-meta">IBM Plex Mono 500 · 12px · card-meta (--muted)</span>
+            <span class="card-meta">Категория / подрубрика</span>
+          </div>
+
+          <!-- Моно: счётчики -->
+          <div class="kit-type-item">
+            <span class="kit-type-meta">IBM Plex Mono 500 · 12px · rubric counter (--muted)</span>
+            <strong style="font: 500 12px/1.2 var(--mono); color: var(--muted);">383</strong>
+          </div>
+
+          <!-- Sidebar SEO -->
+          <div class="kit-type-item">
+            <span class="kit-type-meta">Manrope 400 · 12.5px · lh 1.5 · sidebar-seo (--muted)</span>
+            <p class="sidebar-seo" style="margin:0;">Каталог инструментов, ресурсов и программ для дизайнеров.</p>
+          </div>
+
+          <!-- Копирайт -->
+          <div class="kit-type-item">
+            <span class="kit-type-meta">IBM Plex Mono 500 · 11px · sidebar-copyright (--muted)</span>
+            <p class="sidebar-copyright" style="margin:0;">Разработчик <a class="sidebar-copyright-link" href="#">Зеленых Денис</a><br />Ростов-на-Дону 2026 © Все права защищены</p>
+          </div>
+
+          <!-- Подпись / лейбл -->
+          <div class="kit-type-item">
+            <span class="kit-type-meta">IBM Plex Mono 500 · 11px · letter-heading (--muted, uppercase)</span>
+            <span class="dict-letter-heading" style="border:none; padding:0; margin:0;">А</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="kit-divider"></div>
+
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <!-- 3. РАДИУСЫ И ТЕНИ                                                     -->
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <section class="kit-section">
+        <h2 class="kit-section-title">03 — Радиусы и тени</h2>
+
+        <div class="kit-group">
+          <p class="kit-group-label">Border radius</p>
+          <div class="kit-radius-row">
+            <div class="kit-radius-box">
+              <div class="kit-radius-swatch" style="border-radius: 8px;"></div>
+              <span class="kit-annotation">8px · share-btn, dict-letter-heading</span>
+            </div>
+            <div class="kit-radius-box">
+              <div class="kit-radius-swatch" style="border-radius: 12px;"></div>
+              <span class="kit-annotation">12px · burger, cover</span>
+            </div>
+            <div class="kit-radius-box">
+              <div class="kit-radius-swatch" style="border-radius: 16px;"></div>
+              <span class="kit-annotation">16px · rubric-button, card-cover</span>
+            </div>
+            <div class="kit-radius-box">
+              <div class="kit-radius-swatch" style="border-radius: var(--radius-md);"></div>
+              <span class="kit-annotation">--radius-md · 18px · control</span>
+            </div>
+            <div class="kit-radius-box">
+              <div class="kit-radius-swatch" style="border-radius: var(--radius-lg);"></div>
+              <span class="kit-annotation">--radius-lg · 22px · resource-card</span>
+            </div>
+            <div class="kit-radius-box">
+              <div class="kit-radius-swatch" style="border-radius: var(--radius-xl);"></div>
+              <span class="kit-annotation">--radius-xl · 28px · sidebar bottom-sheet</span>
+            </div>
+            <div class="kit-radius-box">
+              <div class="kit-radius-swatch" style="border-radius: 999px;"></div>
+              <span class="kit-annotation">999px · badge, subtab, brand-mark</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="kit-group">
+          <p class="kit-group-label">Box shadow · --shadow</p>
+          <div class="kit-shadow-box"></div>
+          <span class="kit-annotation" style="margin-top:10px; display:block;">0 24px 60px rgba(0,0,0,.35) · карточки, контрол поиска</span>
+        </div>
+      </section>
+
+      <div class="kit-divider"></div>
+
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <!-- 4. НАВИГАЦИЯ — РУБРИКИ (SIDEBAR)                                      -->
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <section class="kit-section">
+        <h2 class="kit-section-title">04 — Рубрики / Sidebar nav</h2>
+
+        <div class="kit-row" style="align-items: flex-start; gap: 32px;">
+
+          <!-- Демо-сайдбар -->
+          <div class="kit-sidebar-demo">
+            <div class="rubric-nav" style="display:grid; gap:8px;">
+
+              <div class="kit-item">
+                <!-- Default: не активна, без hover -->
+                <button class="rubric-button" type="button">
+                  <span>Инструменты</span>
+                  <strong>121</strong>
+                </button>
+                <span class="kit-annotation">default</span>
+              </div>
+
+              <div class="kit-item">
+                <!-- Hover -->
+                <button class="rubric-button kit-force-hover" type="button">
+                  <span>ИИ</span>
+                  <strong>92</strong>
+                </button>
+                <span class="kit-annotation">:hover</span>
+              </div>
+
+              <div class="kit-item">
+                <!-- Active (выбрана) -->
+                <button class="rubric-button" data-active="true" type="button">
+                  <span>Ресурсы</span>
+                  <strong>79</strong>
+                </button>
+                <span class="kit-annotation">:active / data-active="true"</span>
+              </div>
+
+              <div class="kit-item">
+                <!-- IT-словарь (фиолетовый акцент) — default -->
+                <button class="rubric-button rubric-button--dict" type="button">
+                  <span>IT-словарь</span>
+                  <strong>659</strong>
+                </button>
+                <span class="kit-annotation">dict — default · разделитель сверху</span>
+              </div>
+
+              <div class="kit-item">
+                <!-- IT-словарь — active -->
+                <button class="rubric-button rubric-button--dict" data-active="true" type="button">
+                  <span>IT-словарь</span>
+                  <strong>659</strong>
+                </button>
+                <span class="kit-annotation">dict — active · фиолетовый градиент</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Пояснения -->
+          <div style="display:grid; gap:14px; max-width:360px;">
+            <p style="margin:0; color:var(--muted); font-size:13px; line-height:1.7;">
+              Кнопки рубрик занимают всю ширину сайдбара. Счётчик — <code style="font-family:var(--mono)">IBM Plex Mono 500 12px</code>, выровнен вправо. Активное состояние — голубой градиент для каталога, фиолетовый — для словаря.
+            </p>
+            <p style="margin:0; color:var(--muted); font-size:13px; line-height:1.7;">
+              На десктопе <code style="font-family:var(--mono)">.rubric-nav</code> получает отрицательные горизонтальные отступы <code style="font-family:var(--mono)">−14px</code>, чтобы активная таблетка симметрично выходила на края сайдбара.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      <div class="kit-divider"></div>
+
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <!-- 5. ФИЛЬТРЫ — ПОДРУБРИКИ / БУКВЕННАЯ НАВИГАЦИЯ                        -->
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <section class="kit-section">
+        <h2 class="kit-section-title">05 — Подкатегории / Subtab buttons</h2>
+
+        <div class="kit-group">
+          <p class="kit-group-label">Состояния</p>
+          <div class="kit-row">
+
+            <div class="kit-item">
+              <button class="subtab-button" type="button">
+                <span>UX / UI</span>
+                <strong>24</strong>
+              </button>
+              <span class="kit-annotation">default</span>
+            </div>
+
+            <div class="kit-item">
+              <button class="subtab-button kit-force-hover" type="button">
+                <span>Иконки</span>
+                <strong>12</strong>
+              </button>
+              <span class="kit-annotation">:hover</span>
+            </div>
+
+            <div class="kit-item">
+              <button class="subtab-button" data-active="true" type="button">
+                <span>ИИ-генерация</span>
+                <strong>31</strong>
+              </button>
+              <span class="kit-annotation">:active / data-active="true"</span>
+            </div>
+
+            <!-- Без счётчика (буква словаря) -->
+            <div class="kit-item">
+              <button class="subtab-button" type="button">
+                <span>А</span>
+                <strong>47</strong>
+              </button>
+              <span class="kit-annotation">буква словаря</span>
+            </div>
+
+            <div class="kit-item">
+              <button class="subtab-button" data-active="true" type="button">
+                <span>П</span>
+                <strong>83</strong>
+              </button>
+              <span class="kit-annotation">буква — active</span>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <div class="kit-divider"></div>
+
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <!-- 6. ПОИСК                                                               -->
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <section class="kit-section">
+        <h2 class="kit-section-title">06 — Строка поиска</h2>
+
+        <div class="kit-group">
+          <p class="kit-group-label">Default</p>
+          <label class="control control-search" style="max-width:480px;">
+            <span class="search-icon" aria-hidden="true">🔎</span>
+            <input type="search" placeholder="Поиск" />
+          </label>
+          <span class="kit-annotation" style="margin-top:8px; display:block;">Фон: linear-gradient rgba(20,25,32) → rgba(16,20,25) · border: var(--line) · box-shadow: var(--shadow)</span>
+        </div>
+
+        <div class="kit-group">
+          <p class="kit-group-label">С введённым текстом</p>
+          <label class="control control-search" style="max-width:480px;">
+            <span class="search-icon" aria-hidden="true">🔎</span>
+            <input type="search" value="Figma" />
+          </label>
+        </div>
+      </section>
+
+      <div class="kit-divider"></div>
+
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <!-- 7. КАРТОЧКИ КАТАЛОГА                                                  -->
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <section class="kit-section">
+        <h2 class="kit-section-title">07 — Карточки каталога</h2>
+
+        <div class="kit-card-row">
+
+          <!-- Карточка с emoji-бейджем (основной вариант) -->
+          <div class="kit-item">
+            <a class="resource-card" href="#" target="_blank" rel="noreferrer">
+              <span class="emoji-badge">🎨</span>
+              <h2 class="card-title">Figma</h2>
+              <p class="card-meta">UX / UI</p>
+              <p class="card-description">Инструмент для проектирования интерфейсов и прототипирования с совместным редактированием в реальном времени.</p>
+            </a>
+            <span class="kit-annotation">default · emoji-badge · с meta</span>
+          </div>
+
+          <!-- Карточка в состоянии hover -->
+          <div class="kit-item">
+            <a class="resource-card kit-force-hover" href="#" target="_blank" rel="noreferrer">
+              <span class="emoji-badge">🤖</span>
+              <h2 class="card-title">Midjourney</h2>
+              <p class="card-meta">ИИ-генерация</p>
+              <p class="card-description">Генерация изображений по текстовым описаниям с высоким художественным качеством результата.</p>
+            </a>
+            <span class="kit-annotation">:hover · translateY(−2px) · border-color: --line-strong</span>
+          </div>
+
+          <!-- Карточка без meta -->
+          <div class="kit-item">
+            <a class="resource-card" href="#" target="_blank" rel="noreferrer">
+              <span class="emoji-badge">📐</span>
+              <h2 class="card-title">Hicons</h2>
+              <p class="card-description">Библиотека из 2700+ редактируемых иконок в нескольких стилях для дизайна и разработки.</p>
+            </a>
+            <span class="kit-annotation">default · без meta</span>
+          </div>
+
+          <!-- Карточка с изображением обложки -->
+          <div class="kit-item">
+            <a class="resource-card" href="#" target="_blank" rel="noreferrer">
+              <!-- card-cover: объект fit cover, aspect 1.45/1 -->
+              <div class="card-cover" style="background: linear-gradient(135deg, var(--panel-2), var(--card)); display:flex; align-items:center; justify-content:center;">
+                <span style="color:var(--muted); font-size:12px; font-family:var(--mono);">screenshot.png</span>
+              </div>
+              <h2 class="card-title">Спарк</h2>
+              <p class="card-meta">Продвижение</p>
+              <p class="card-description">Платформа для управления рекламными кампаниями в VK и работы с аудиторией.</p>
+            </a>
+            <span class="kit-annotation">с card-cover · aspect-ratio 1.45/1</span>
+          </div>
+
+        </div>
+
+        <!-- Empty state -->
+        <div class="kit-group" style="margin-top: 28px;">
+          <p class="kit-group-label">Empty state</p>
+          <div class="empty-state" style="max-width: 400px;">
+            По запросу «Photoshop» ничего не найдено
+          </div>
+          <span class="kit-annotation" style="margin-top:8px; display:block;">border: 1px dashed var(--line) · background: rgba(255,255,255,.03)</span>
+        </div>
+      </section>
+
+      <div class="kit-divider"></div>
+
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <!-- 8. BADGE / ИКОНКИ-МЕТКИ                                               -->
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <section class="kit-section">
+        <h2 class="kit-section-title">08 — Emoji badge и иконки рубрик</h2>
+
+        <div class="kit-group">
+          <p class="kit-group-label">Emoji badge · 52×52 · r:999px</p>
+          <div class="kit-row">
+            <div class="kit-item"><span class="emoji-badge">🎨</span><span class="kit-annotation">дизайн</span></div>
+            <div class="kit-item"><span class="emoji-badge">🤖</span><span class="kit-annotation">ИИ</span></div>
+            <div class="kit-item"><span class="emoji-badge">📐</span><span class="kit-annotation">иконки</span></div>
+            <div class="kit-item"><span class="emoji-badge">🎬</span><span class="kit-annotation">видео</span></div>
+            <div class="kit-item"><span class="emoji-badge">🌐</span><span class="kit-annotation">веб</span></div>
+            <div class="kit-item"><span class="emoji-badge">📊</span><span class="kit-annotation">аналитика</span></div>
+          </div>
+        </div>
+
+        <div class="kit-group">
+          <p class="kit-group-label">Rubric icon · 34×34 · r:999px · rubric-button-icon</p>
+          <div class="kit-row">
+            <div class="kit-item"><span class="rubric-button-icon">🔧</span><span class="kit-annotation">инструменты</span></div>
+            <div class="kit-item"><span class="rubric-button-icon">🤖</span><span class="kit-annotation">ИИ</span></div>
+            <div class="kit-item"><span class="rubric-button-icon">📖</span><span class="kit-annotation">обучение</span></div>
+          </div>
+        </div>
+
+        <div class="kit-group">
+          <p class="kit-group-label">Brand mark · 52×52 · r:999px · gradient</p>
+          <div class="kit-row">
+            <div class="kit-item">
+              <div class="sidebar-brand-mark">Lk</div>
+              <span class="kit-annotation">sidebar brand mark</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="kit-divider"></div>
+
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <!-- 9. IT-СЛОВАРЬ — ТЕРМИНЫ                                               -->
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <section class="kit-section">
+        <h2 class="kit-section-title">09 — IT-словарь · термины</h2>
+
+        <div style="max-width:760px;">
+          <div class="dict-view" style="display:grid; gap:40px;">
+
+            <!-- Группа буквы -->
+            <div class="dict-letter-group">
+              <h3 class="dict-letter-heading">А</h3>
+
+              <!-- Термин: default -->
+              <div class="kit-item">
+                <div class="dict-term">
+                  <div class="dict-term-header">
+                    <span class="dict-term-title">Алгоритм</span>
+                    <!-- Кнопка шаринга: скрыта по умолчанию, видна при hover на dict-term -->
+                    <button class="dict-share-btn" type="button" title="Скопировать ссылку" aria-label="Скопировать ссылку на термин">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <p class="dict-term-def">Точная последовательность шагов для решения задачи или достижения результата. Это как рецепт: берёшь ингредиенты (данные), следуешь инструкциям и получаешь блюдо (результат) — компьютер делает ровно то же самое.</p>
+                </div>
+                <span class="kit-annotation">default · .dict-share-btn скрыта (opacity: 0)</span>
+              </div>
+
+              <!-- Термин: hover -->
+              <div class="kit-item">
+                <div class="dict-term kit-term-hover">
+                  <div class="dict-term-header">
+                    <span class="dict-term-title">API</span>
+                    <button class="dict-share-btn" type="button" title="Скопировать ссылку">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <p class="dict-term-def">Программный интерфейс, через который приложения общаются друг с другом. Представь, что API — это официант в ресторане: ты делаешь заказ, он идёт на кухню и возвращает тебе результат, не показывая как именно всё готовилось.</p>
+                </div>
+                <span class="kit-annotation">:hover · .dict-share-btn показана (opacity: 1) · иконка — цвет --muted</span>
+              </div>
+
+              <!-- Термин: hover на кнопке шаринга -->
+              <div class="kit-item">
+                <div class="dict-term">
+                  <div class="dict-term-header">
+                    <span class="dict-term-title">Аутентификация</span>
+                    <button class="dict-share-btn kit-share-hover" type="button" title="Скопировать ссылку">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <p class="dict-term-def">Процесс проверки личности пользователя или устройства перед предоставлением доступа к системе. Если авторизация — это пропуск на завод, то аутентификация — это проверка, действительно ли человек тот, за кого себя выдаёт.</p>
+                </div>
+                <span class="kit-annotation">:hover share-btn · цвет --accent · border: --accent · фон: --accent-soft</span>
+              </div>
+
+              <!-- Термин: copied (чекмарка) -->
+              <div class="kit-item">
+                <div class="dict-term">
+                  <div class="dict-term-header">
+                    <span class="dict-term-title">Архитектура</span>
+                    <!-- Состояние "скопировано" — чекмарка вместо иконки ссылки -->
+                    <button class="dict-share-btn" style="opacity:1; color:var(--accent); border-color:var(--accent); background:var(--accent-soft);" type="button">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <polyline points="20 6 9 17 4 12"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <p class="dict-term-def">Общая структура и принципы организации программной системы. Хорошая архитектура — это как продуманная планировка квартиры: каждая комната на своём месте, всё логично и удобно расширять.</p>
+                </div>
+                <span class="kit-annotation">copied · иконка → чекмарка · сбрасывается через 1500мс</span>
+              </div>
+
+              <!-- Термин: highlight (открытие по #hash) -->
+              <div class="kit-item">
+                <div class="dict-term dict-term--highlight kit-dict-highlight">
+                  <div class="dict-term-header">
+                    <span class="dict-term-title">Асинхронность</span>
+                    <button class="dict-share-btn" style="opacity:1;" type="button">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <p class="dict-term-def">Способ выполнения операций без блокировки основного потока — программа не ждёт завершения задачи, а продолжает работу. Как заказ в ресторане: ты сделал заказ и можешь болтать с друзьями, пока еда готовится.</p>
+                </div>
+                <span class="kit-annotation">highlight · открытие по #dict-{id} · анимация flash 2s → прозрачный фон · border-radius: --radius-md</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="kit-divider"></div>
+
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <!-- 10. МОБИЛЬНЫЕ КОМПОНЕНТЫ                                              -->
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <section class="kit-section">
+        <h2 class="kit-section-title">10 — Мобильная навигация</h2>
+
+        <div class="kit-group">
+          <p class="kit-group-label">Mobile topbar</p>
+          <div class="kit-topbar-demo">
+            <!-- Логотип -->
+            <span class="kit-mobile-brand">
+              <span style="font-size:20px; font-weight:800; letter-spacing:-0.04em; color:var(--text);">Lkit</span>
+            </span>
+            <!-- Burger — закрыт -->
+            <button type="button" class="menu-burger" aria-expanded="false" aria-label="Открыть меню" style="display:inline-flex;">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+          <span class="kit-annotation" style="margin-top:8px; display:block;">sticky top · backdrop-filter: blur(16px) · bg: rgba(11,13,16,.55) · border-bottom: var(--line)</span>
+        </div>
+
+        <div class="kit-group">
+          <p class="kit-group-label">Burger button — состояния</p>
+          <div class="kit-burger-demo">
+
+            <div class="kit-item">
+              <button type="button" class="menu-burger" aria-expanded="false" style="display:inline-flex;">
+                <span></span><span></span><span></span>
+              </button>
+              <span class="kit-annotation">closed (aria-expanded="false")</span>
+            </div>
+
+            <div class="kit-item">
+              <!-- Открытый burger — три полоски → крест через CSS transforms -->
+              <button type="button" class="menu-burger" aria-expanded="true" style="display:inline-flex;">
+                <span></span><span></span><span></span>
+              </button>
+              <span class="kit-annotation">open (aria-expanded="true") · span → ×</span>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="kit-group">
+          <p class="kit-group-label">Bottom sheet (mobile ≤768px) — превью структуры</p>
+          <div style="
+            width: 340px;
+            border-radius: 20px 20px 0 0;
+            border: 1px solid var(--line-strong);
+            border-bottom: none;
+            background: linear-gradient(180deg, rgba(19,23,29,.98), rgba(12,15,20,.98));
+            padding: 8px 18px 24px;
+            position: relative;
+          ">
+            <!-- drag handle -->
+            <div style="
+              width:40px; height:4px;
+              margin: 8px auto 16px;
+              border-radius:999px;
+              background: var(--line-strong);
+            "></div>
+            <div style="display:grid; gap:8px;">
+              <button class="rubric-button" type="button"><span>Инструменты</span><strong>121</strong></button>
+              <button class="rubric-button" data-active="true" type="button"><span>ИИ</span><strong>92</strong></button>
+              <button class="rubric-button rubric-button--dict" type="button"><span>IT-словарь</span><strong>659</strong></button>
+            </div>
+          </div>
+          <span class="kit-annotation" style="margin-top:8px; display:block;">bottom sheet · r: 20px 20px 0 0 · drag handle сверху · box-shadow: 0 -24px 60px rgba(0,0,0,.5)</span>
+        </div>
+
+        <div class="kit-group">
+          <p class="kit-group-label">Tablet dropdown (769–1100px) — превью структуры</p>
+          <div style="
+            width: 280px;
+            border-radius: 16px;
+            border: 1px solid var(--line-strong);
+            background: linear-gradient(180deg, rgba(19,23,29,.98), rgba(12,15,20,.98));
+            padding: 8px 16px 16px;
+            box-shadow: 0 24px 60px rgba(0,0,0,.55);
+          ">
+            <div style="display:grid; gap:8px;">
+              <button class="rubric-button" type="button"><span>Инструменты</span><strong>121</strong></button>
+              <button class="rubric-button" data-active="true" type="button"><span>ИИ</span><strong>92</strong></button>
+              <button class="rubric-button rubric-button--dict" type="button"><span>IT-словарь</span><strong>659</strong></button>
+            </div>
+          </div>
+          <span class="kit-annotation" style="margin-top:8px; display:block;">dropdown · top: 72px · right: 16px · r: 16px · transform: scale + translateY при открытии</span>
+        </div>
+
+      </section>
+
+      <div class="kit-divider"></div>
+
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <!-- 11. САЙДБАР — ПОЛНЫЙ ВАРИАНТ                                          -->
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <section class="kit-section">
+        <h2 class="kit-section-title">11 — Sidebar · полный десктоп</h2>
+
+        <div style="display:inline-flex;">
+          <aside style="
+            width: 280px;
+            display: flex;
+            flex-direction: column;
+            padding: 24px 18px 20px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius-lg);
+            background: linear-gradient(180deg, rgba(19,23,29,.96), rgba(12,15,20,.96));
+            min-height: 500px;
+          ">
+            <!-- Brand -->
+            <div class="sidebar-brand" style="margin-bottom:28px;">
+              <div class="sidebar-brand-mark">Lk</div>
+              <div class="sidebar-brand-copy">
+                <strong>Lkit</strong>
+                <span>Design Resources</span>
+              </div>
+            </div>
+
+            <!-- Навигация -->
+            <nav class="rubric-nav" style="display:grid; gap:8px;">
+              <button class="rubric-button" type="button"><span>Инструменты</span><strong>121</strong></button>
+              <button class="rubric-button" data-active="true" type="button"><span>ИИ</span><strong>92</strong></button>
+              <button class="rubric-button" type="button"><span>Контент и обучение</span><strong>91</strong></button>
+              <button class="rubric-button" type="button"><span>Ресурсы</span><strong>79</strong></button>
+              <button class="rubric-button" type="button"><span>Продвижение</span><strong>6</strong></button>
+              <button class="rubric-button rubric-button--dict" type="button"><span>IT-словарь</span><strong>659</strong></button>
+            </nav>
+
+            <!-- Footer -->
+            <footer class="sidebar-footer">
+              <p class="sidebar-seo">Каталог инструментов, ресурсов и программ для дизайнеров.</p>
+              <p class="sidebar-copyright">
+                Разработчик <a class="sidebar-copyright-link" href="#" target="_blank" rel="noreferrer">Зеленых Денис</a><br />
+                Ростов-на-Дону 2026 © Все права защищены
+              </p>
+            </footer>
+          </aside>
+        </div>
+      </section>
+
+      <div class="kit-divider"></div>
+
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <!-- 12. СОСТОЯНИЯ ФОНА СТРАНИЦЫ                                           -->
+      <!-- ═══════════════════════════════════════════════════════════════════════ -->
+      <section class="kit-section">
+        <h2 class="kit-section-title">12 — Фоны страницы</h2>
+
+        <div class="kit-row">
+          <div class="kit-item">
+            <div style="
+              width: 280px;
+              height: 160px;
+              border-radius: var(--radius-md);
+              border: 1px solid var(--line);
+              background:
+                radial-gradient(circle at top left, rgba(34,197,94,.08), transparent 28%),
+                radial-gradient(circle at bottom right, rgba(59,130,246,.12), transparent 24%),
+                linear-gradient(180deg, #090b0e, #0b0d10 100%);
+            "></div>
+            <span class="kit-annotation">Режим каталога · зелёный + синий spotlight</span>
+          </div>
+
+          <div class="kit-item">
+            <div style="
+              width: 280px;
+              height: 160px;
+              border-radius: var(--radius-md);
+              border: 1px solid var(--line);
+              background:
+                radial-gradient(circle at bottom right, rgba(59,130,246,.12), transparent 24%),
+                linear-gradient(180deg, #090b0e, #0b0d10 100%);
+            "></div>
+            <span class="kit-annotation">Режим словаря (body.dict-active) · только синий</span>
+          </div>
+        </div>
+      </section>
+
+    </div><!-- /kit-page -->
+  </body>
+</html>
