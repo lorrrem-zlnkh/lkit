@@ -292,6 +292,12 @@ for (const src of sources) {
 
 console.log(`\nИтог: просмотрено ${scanned}, отфильтровано ${filtered}, уже в словаре/повтор ${dupSkipped}, НОВЫХ ${newEntries.length}.`);
 
+if (llm && llm.usage && llm.usage.calls) {
+  const u = llm.usage;
+  const pct = u.cacheRead + u.cacheCreate ? Math.round((u.cacheRead / (u.cacheRead + u.cacheCreate + u.input)) * 100) : 0;
+  console.log(`Кэш LLM (${u.calls} вызовов): прочитано из кэша ${u.cacheRead} ток., записано ${u.cacheCreate}, вне кэша ${u.input}. Доля чтений из кэша ≈ ${pct}%.`);
+}
+
 if (!newEntries.length) { console.log("Нечего добавлять."); process.exit(0); }
 
 if (DRY_RUN) {
