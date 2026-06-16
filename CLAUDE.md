@@ -36,6 +36,16 @@ git commit -m "Deploy: ..."
 git checkout main
 ```
 
+## Документация
+
+`Memory/lkit-analytics.md` — главный аналитический документ проекта (архитектура, фичи, интеграции, деплой). После значимых изменений обновлять его и синхронизировать с `README.md`:
+
+```bash
+cp Memory/lkit-analytics.md README.md
+git add Memory/lkit-analytics.md README.md
+git commit -m "Docs: update project analytics"
+```
+
 ## Структура проекта
 
 - `site/` — исходники сайта (HTML, CSS, JS, данные)
