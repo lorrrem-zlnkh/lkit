@@ -42,7 +42,7 @@ git checkout main
 
 ```bash
 cp Memory/lkit-analytics.md README.md
-cp Memory/lkit-analytics.md "/Users/denis_zelenykh/Library/Mobile Documents/iCloud~md~obsidian/Documents/Zelenykh/👾 Lorrrem/Проекты Lorrrem/Lkit/lkit-analytics.markdown"
+cp Memory/lkit-analytics.md "/Users/denis_zelenykh/Library/Mobile Documents/iCloud~md~obsidian/Documents/Zelenykh/👾 Lorrrem/Проекты Lorrrem/Lkit/lkit-analytics.md"
 git add Memory/lkit-analytics.md README.md
 git commit -m "Docs: update project analytics"
 ```
