@@ -69,6 +69,7 @@ Lkit/
 │   ├── app.js                 ← 749 строк, вся логика каталога и словаря
 │   ├── catalog-data.js        ← window.CATALOG_DATA (383 карточки)
 │   ├── dictionary-data.js     ← window.DICTIONARY_DATA (659 терминов)
+│   ├── ui-kit.html            ← дизайн-система проекта (ветка UI-kit)
 │   └── screenshots/           ← локальные скриншоты ресурсов (~130 PNG)
 │
 ├── scripts/                   ← инструменты работы со словарём
@@ -244,6 +245,7 @@ URL: https://lorrrem-zlnkh.github.io/lkit/
 | `gh-pages` | Тестовая среда (GitHub Pages), файлы в корне |
 | `feature/dictionary` | Изменения словаря |
 | `feature/catalog` | Изменения каталога |
+| `UI-kit` | Дизайн-система проекта (`site/ui-kit.html`) |
 
 ### Workflow
 
@@ -385,6 +387,33 @@ minDefLen: 25       // слишком короткое определение п
 | +FTP деплой | GitHub Actions → lkit.lorrrem.ru (FTPS) |
 | +Метрика | Яндекс.Метрика 109847531 |
 | Чистка | Удалены: skills автоматизации, Playwright, чат-логи, старые скрипты |
+| +UI Kit | Дизайн-система: токены, типографика, компоненты, состояния — `site/ui-kit.html` |
+
+---
+
+## 🎨 UI Kit
+
+Живая дизайн-система проекта — все компоненты, токены и состояния в одном месте.
+
+**Файл:** `site/ui-kit.html` · **Ветка:** `UI-kit`
+**URL (gh-pages):** https://lorrrem-zlnkh.github.io/lkit/ui-kit.html
+
+### Содержание
+
+| # | Секция | Что внутри |
+|---|---|---|
+| 01 | Цвета / CSS Tokens | Все переменные со свотчами и hex-значениями |
+| 02 | Типографика | Вся иерархия от H1 до копирайта (Manrope + IBM Plex Mono) |
+| 03 | Радиусы и тени | Все значения border-radius + box-shadow |
+| 04 | Рубрики / Sidebar nav | default / hover / active / dict-active |
+| 05 | Подкатегории / Subtab | default / hover / active + буквенная навигация словаря |
+| 06 | Поиск | Пустое и заполненное состояние |
+| 07 | Карточки каталога | С emoji / в hover / без meta / с обложкой / empty state |
+| 08 | Emoji badge | emoji-badge 52×52, rubric-icon 34×34 |
+| 09 | IT-словарь | Термины: default / hover / share-hover / copied / highlight |
+| 10 | Мобильная навигация | Topbar, burger (закрыт/открыт), bottom sheet, tablet dropdown |
+| 11 | Sidebar полный | Десктопный сайдбар целиком |
+| 12 | Фоны страницы | Каталог vs Словарь режим |
 
 ---
 
