@@ -721,6 +721,14 @@ function setupMobileMenu() {
   if (!burger || !sidebar || !backdrop) return;
 
   const setOpen = (open) => {
+    if (open) {
+      // Compensate for the scrollbar that overflow:hidden removes, so locking
+      // the page doesn't widen the viewport and reflow the background cards.
+      const scrollbar = window.innerWidth - document.documentElement.clientWidth;
+      document.body.style.paddingRight = scrollbar > 0 ? `${scrollbar}px` : "";
+    } else {
+      document.body.style.paddingRight = "";
+    }
     sidebar.classList.toggle("is-open", open);
     backdrop.classList.toggle("is-open", open);
     document.body.classList.toggle("menu-open", open);
