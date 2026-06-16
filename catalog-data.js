@@ -3263,7 +3263,7 @@ window.CATALOG_DATA = [
     "Emoji": "🔣"
   },
   {
-    "Resource": "Hicons---+2700-Editable-icons)",
+    "Resource": "Hicons",
     "Rubric": "Ресурсы",
     "Subrubric": "Иконки",
     "Link": "https://www.figma.com/community/file/1023171235158207826/Hicon-(Free-icon-pack",
