@@ -38,14 +38,14 @@ git checkout main
 
 ## Документация
 
-`Memory/lkit-analytics.md` — главный аналитический документ проекта (архитектура, фичи, интеграции, деплой). После значимых изменений обновлять его и синхронизировать с `README.md`:
+`Memory/lkit-analytics.md` — главный аналитический документ проекта (архитектура, фичи, интеграции, деплой). После значимых изменений — просто обновить файл и закоммитить:
 
 ```bash
-cp Memory/lkit-analytics.md README.md
-cp Memory/lkit-analytics.md "/Users/denis_zelenykh/Library/Mobile Documents/iCloud~md~obsidian/Documents/Zelenykh/👾 Lorrrem/Проекты Lorrrem/Lkit/lkit-analytics.md"
-git add Memory/lkit-analytics.md README.md
+git add Memory/lkit-analytics.md
 git commit -m "Docs: update project analytics"
 ```
+
+Синхронизация в `README.md` и Obsidian происходит автоматически через `post-commit` хук.
 
 ## Структура проекта
 
