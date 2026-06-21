@@ -4537,6 +4537,19 @@ window.CATALOG_DATA = [
     "Emoji": "🔣"
   },
   {
+    "Resource": "Magnific AI Icon Generator",
+    "Rubric": "ИИ",
+    "Subrubric": "Изображения и графика",
+    "Link": "https://www.magnific.com/ai/icon-generator",
+    "Slug": "magnific-ai-icon-generator",
+    "Description": "ИИ-генератор иконок от Magnific (ранее Freepik): создаёт наборы иконок в едином стиле по текстовому описанию с экспортом в SVG и PNG.",
+    "AccessStatus": "ok",
+    "Screenshot": "",
+    "ScreenshotSource": "",
+    "InfoSource": "user",
+    "Emoji": "🔣"
+  },
+  {
     "Resource": "Recraft AI Icon Generator",
     "Rubric": "ИИ",
     "Subrubric": "Изображения и графика",
