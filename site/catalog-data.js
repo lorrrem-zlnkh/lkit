@@ -923,16 +923,16 @@ window.CATALOG_DATA = [
     "Emoji": "💬"
   },
   {
-    "Resource": "Yandex Prompt Hub Study",
-    "Rubric": "ИИ",
-    "Subrubric": "Промпты и библиотеки",
+    "Resource": "Яндекс Промптхаб",
+    "Rubric": "Контент и обучение",
+    "Subrubric": "Курсы и школы",
     "Link": "https://alice.yandex.ru/prompthub/study",
     "Slug": "yandex-prompt-hub-study",
-    "Description": "Каталог и учебный хаб Яндекса по промптам и сценариям работы с ИИ.",
-    "AccessStatus": "нужна новая публичная ссылка",
+    "Description": "Промптхаб Яндекса — обучающий хаб по работе с нейросетями: база рабочих промптов, курсы и челленджи, разбор кейсов экспертов и применение прямо в Алисе AI.",
+    "AccessStatus": "ok",
     "Screenshot": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Falice.yandex.ru%2Fprompthub%2Fstudy?w=1200",
     "ScreenshotSource": "web",
-    "InfoSource": "template",
+    "InfoSource": "user",
     "Emoji": "💬"
   },
   {
