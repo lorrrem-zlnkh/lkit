@@ -4446,6 +4446,19 @@ window.CATALOG_DATA = [
     "Emoji": "🧱"
   },
   {
+    "Resource": "shadcn/ui",
+    "Rubric": "Ресурсы",
+    "Subrubric": "UI-киты и библиотеки",
+    "Link": "https://ui.shadcn.com/",
+    "Slug": "shadcn-ui",
+    "Description": "shadcn/ui — набор переиспользуемых React-компонентов на Radix UI и Tailwind CSS: код копируется прямо в проект и кастомизируется под себя, а не подключается как библиотека-зависимость.",
+    "AccessStatus": "ok",
+    "Screenshot": "",
+    "ScreenshotSource": "",
+    "InfoSource": "user",
+    "Emoji": "🧱"
+  },
+  {
     "Resource": "Bootstrap",
     "Rubric": "Ресурсы",
     "Subrubric": "UI-киты и библиотеки",
