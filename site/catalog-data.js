@@ -2566,7 +2566,7 @@ window.CATALOG_DATA = [
     "Subrubric": "Вдохновение и референсы",
     "Link": "https://www.pinterest.com/lorrrem/",
     "Slug": "pinterest",
-    "Description": "Зеленых Денис | lorrrem | Дизайнер привычных вещей, филантроп и плейбой. Веду блог о дизайне и технологиях: https://t.me/lorrrem",
+    "Description": "Зеленых Денис | lorrrem | Дизайнер привычных вещей, филантроп и плейбой. Веду блог о дизайне и технологиях: https://t.me/+jKiJNNsXxfxhZjRi",
     "AccessStatus": "ok",
     "Screenshot": "./screenshots/pinterest.png",
     "ScreenshotSource": "local",
