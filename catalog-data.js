@@ -3107,6 +3107,19 @@ window.CATALOG_DATA = [
     "Emoji": "📣"
   },
   {
+    "Resource": "Tagio",
+    "Rubric": "Продвижение",
+    "Subrubric": "Покупка и аналитика площадок",
+    "Link": "https://tagio.pro/",
+    "Slug": "tagio",
+    "Description": "Tagio — платформа для закупки рекламы в Telegram: размещение в проверенных «чистых» каналах быстро и безопасно.",
+    "AccessStatus": "ok",
+    "Screenshot": "",
+    "ScreenshotSource": "",
+    "InfoSource": "user",
+    "Emoji": "📣"
+  },
+  {
     "Resource": "TeleTarget",
     "Rubric": "Продвижение",
     "Subrubric": "Покупка и аналитика площадок",
