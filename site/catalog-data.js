@@ -3094,6 +3094,19 @@ window.CATALOG_DATA = [
     "Emoji": "📣"
   },
   {
+    "Resource": "BidFox",
+    "Rubric": "Продвижение",
+    "Subrubric": "Покупка и аналитика площадок",
+    "Link": "https://bidfox.ru/p/campaigns",
+    "Slug": "bidfox",
+    "Description": "BidFox — сервис автоматического размещения рекламы в соцсетях (Telegram, ВКонтакте, Одноклассники) с детальной аналитикой кампаний.",
+    "AccessStatus": "требует логин",
+    "Screenshot": "",
+    "ScreenshotSource": "",
+    "InfoSource": "user",
+    "Emoji": "📣"
+  },
+  {
     "Resource": "TeleTarget",
     "Rubric": "Продвижение",
     "Subrubric": "Покупка и аналитика площадок",
