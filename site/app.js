@@ -6,6 +6,7 @@ const DEFAULT_RUBRIC = "Инструменты";
 const DICT_MODE = "__dict__";
 const BLOG_URL = "https://t.me/+jKiJNNsXxfxhZjRi";
 const DESIGN_SYSTEMS_URL = "https://dsg.lorrrem.ru/";
+const DIGEST_URL = "https://t.me/+G2ChN1goMfk1NjNi";
 
 const searchInput = document.querySelector("#search-input");
 const grid = document.querySelector("#catalog-grid");
@@ -313,6 +314,14 @@ function renderRubrics() {
   blogButton.rel = "noreferrer";
   blogButton.innerHTML = `<span>Блог о дизайне привычных вещей</span><span class="rubric-button-icon">📰</span>`;
   rubricNav.append(blogButton);
+
+  const digestButton = document.createElement("a");
+  digestButton.className = "rubric-button rubric-button--blog";
+  digestButton.href = DIGEST_URL;
+  digestButton.target = "_blank";
+  digestButton.rel = "noreferrer";
+  digestButton.innerHTML = `<span>Дизайн-дайджест</span><span class="rubric-button-icon">📣</span>`;
+  rubricNav.append(digestButton);
 }
 
 function isSearchMode() {
