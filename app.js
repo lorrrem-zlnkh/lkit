@@ -4,7 +4,7 @@ const dictData = window.DICTIONARY_DATA || [];
 const ALL_LABEL = "Все";
 const DEFAULT_RUBRIC = "Инструменты";
 const DICT_MODE = "__dict__";
-const BLOG_URL = "https://t.me/lorrrem";
+const BLOG_URL = "https://t.me/+jKiJNNsXxfxhZjRi";
 const DESIGN_SYSTEMS_URL = "https://dsg.lorrrem.ru/";
 
 const searchInput = document.querySelector("#search-input");

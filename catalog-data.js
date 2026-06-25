@@ -2566,7 +2566,7 @@ window.CATALOG_DATA = [
     "Subrubric": "Вдохновение и референсы",
     "Link": "https://www.pinterest.com/lorrrem/",
     "Slug": "pinterest",
-    "Description": "Зеленых Денис | lorrrem | Дизайнер привычных вещей, филантроп и плейбой. Веду блог о дизайне и технологиях: https://t.me/lorrrem",
+    "Description": "Зеленых Денис | lorrrem | Дизайнер привычных вещей, филантроп и плейбой. Веду блог о дизайне и технологиях: https://t.me/+jKiJNNsXxfxhZjRi",
     "AccessStatus": "ok",
     "Screenshot": "./screenshots/pinterest.png",
     "ScreenshotSource": "local",
@@ -3079,6 +3079,32 @@ window.CATALOG_DATA = [
     "ScreenshotSource": "local",
     "InfoSource": "site",
     "Emoji": "🎬"
+  },
+  {
+    "Resource": "Telega.in",
+    "Rubric": "Продвижение",
+    "Subrubric": "Покупка и аналитика площадок",
+    "Link": "https://telega.in/catalog?filter%5Bchannel_type%5D=telegram&filter%5Bsearch%5D=%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD&filter%5Bchannel_theme_id%5D=43&filter%5Bexcept_black%5D=true",
+    "Slug": "telega-in",
+    "Description": "Telega.in — биржа рекламы в Telegram: каталог каналов с фильтрами по тематике, охватам и цене для закупки рекламных размещений (ссылка отфильтрована на дизайн-каналы).",
+    "AccessStatus": "ok",
+    "Screenshot": "",
+    "ScreenshotSource": "",
+    "InfoSource": "user",
+    "Emoji": "📣"
+  },
+  {
+    "Resource": "TeleTarget",
+    "Rubric": "Продвижение",
+    "Subrubric": "Покупка и аналитика площадок",
+    "Link": "https://teletarget.com/catalog/",
+    "Slug": "teletarget",
+    "Description": "TeleTarget — биржа рекламы в Telegram: каталог и рейтинг каналов для подбора площадок и закупки рекламных размещений под продвижение.",
+    "AccessStatus": "ok",
+    "Screenshot": "",
+    "ScreenshotSource": "",
+    "InfoSource": "user",
+    "Emoji": "📣"
   },
   {
     "Resource": "Telderi",
