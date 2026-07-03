@@ -3861,6 +3861,19 @@ window.CATALOG_DATA = [
     "Emoji": "🪧"
   },
   {
+    "Resource": "Art Innovation Gallery",
+    "Rubric": "Продвижение",
+    "Subrubric": "Наружная реклама и кейсы",
+    "Link": "https://artinnovationgallery.com/",
+    "Slug": "art-innovation-gallery",
+    "Description": "Art Innovation Gallery — показ работ художников и брендов на цифровых билбордах в знаковых локациях (Таймс-сквер и др.): арт-выставки на наружных экранах.",
+    "AccessStatus": "ok",
+    "Screenshot": "",
+    "ScreenshotSource": "",
+    "InfoSource": "user",
+    "Emoji": "🖼️"
+  },
+  {
     "Resource": "chir.ag",
     "Rubric": "Инструменты",
     "Subrubric": "Цвет и палитры",
