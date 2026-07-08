@@ -3861,6 +3861,19 @@ window.CATALOG_DATA = [
     "Emoji": "🪧"
   },
   {
+    "Resource": "MA-g (Museum of Avant-garde)",
+    "Rubric": "Продвижение",
+    "Subrubric": "Наружная реклама и кейсы",
+    "Link": "https://www.ma-g.org/",
+    "Slug": "ma-g-museum-avant-garde",
+    "Description": "MA-g (Museum of Avant-garde) — международный онлайн-музей авангарда: собрание графического дизайна, иллюстрации и фотографии, посвящённое движениям, изменившим визуальный язык XX века.",
+    "AccessStatus": "ok",
+    "Screenshot": "",
+    "ScreenshotSource": "",
+    "InfoSource": "user",
+    "Emoji": "🖼️"
+  },
+  {
     "Resource": "Art Innovation Gallery",
     "Rubric": "Продвижение",
     "Subrubric": "Наружная реклама и кейсы",
