@@ -91,6 +91,19 @@ window.CATALOG_DATA = [
     "Emoji": "🧊"
   },
   {
+    "Resource": "Project Genie",
+    "Rubric": "ИИ",
+    "Subrubric": "3D и spatial",
+    "Link": "https://labs.google/projectgenie",
+    "Slug": "project-genie",
+    "Description": "Project Genie (Google Labs) — экспериментальная модель для генерации интерактивных 3D-миров, которые можно создавать и исследовать по текстовому описанию.",
+    "AccessStatus": "ok",
+    "Screenshot": "",
+    "ScreenshotSource": "",
+    "InfoSource": "user",
+    "Emoji": "🧊"
+  },
+  {
     "Resource": "Endless Tools",
     "Rubric": "ИИ",
     "Subrubric": "3D и spatial",
