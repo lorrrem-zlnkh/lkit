@@ -442,6 +442,19 @@ window.CATALOG_DATA = [
     "Emoji": "✂️"
   },
   {
+    "Resource": "Ludo.ai",
+    "Rubric": "ИИ",
+    "Subrubric": "Изображения и графика",
+    "Link": "https://ludo.ai/",
+    "Slug": "ludo-ai",
+    "Description": "Ludo.ai — ИИ-платформа для генерации игровых ассетов: спрайтов, иконок, UI, текстур, музыки, 3D и видео, готовых к использованию в игровом движке.",
+    "AccessStatus": "ok",
+    "Screenshot": "",
+    "ScreenshotSource": "",
+    "InfoSource": "user",
+    "Emoji": "🎮"
+  },
+  {
     "Resource": "flair.ai",
     "Rubric": "ИИ",
     "Subrubric": "Изображения и графика",
