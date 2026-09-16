@@ -609,7 +609,20 @@ function renderDict() {
       const def = document.createElement("p");
       def.className = "dict-term-def";
       const defText = entry.definition;
-      def.textContent = defText.charAt(0).toUpperCase() + defText.slice(1);
+      const capped = defText.charAt(0).toUpperCase() + defText.slice(1);
+      const srcMatch = capped.match(/^([\s\S]*?)\s*Источник:\s*(\S+)\s*$/);
+      if (srcMatch) {
+        def.textContent = srcMatch[1];
+        const srcLink = document.createElement("a");
+        srcLink.className = "dict-source";
+        srcLink.href = /^https?:\/\//.test(srcMatch[2]) ? srcMatch[2] : "https://" + srcMatch[2];
+        srcLink.target = "_blank";
+        srcLink.rel = "noopener noreferrer";
+        srcLink.textContent = "Источник";
+        def.append(" ", srcLink);
+      } else {
+        def.textContent = capped;
+      }
 
       row.append(termEl, def);
       group.append(row);
