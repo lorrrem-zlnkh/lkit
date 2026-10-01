@@ -10,6 +10,10 @@
 
 Хуки ставит общий скрипт: `python3 ~/Documents/Lorrrem-projects-memory/tools/sync-analytics.py --install-hooks`.
 
+## README — копия аналитики
+
+`README.md` собирается хуком из `Memory/lkit-analytics.md` (`cp` в `post-commit`). Править README руками бессмысленно: следующий коммит его перезапишет. Нужно другое содержание в README — меняется хук, а не файл.
+
 ## Словарь
 
 Номер термина идёт в сообщении коммита — «Add Оверхед to dictionary (807)»: счёт ведётся в истории, и пропуск номера потом не восстановить.
