@@ -4862,6 +4862,19 @@ window.CATALOG_DATA = [
     "Emoji": "📊"
   },
   {
+    "Resource": "ZDP — Zelenykh Design Plugin",
+    "Rubric": "ИИ",
+    "Subrubric": "Промпты и библиотеки",
+    "Link": "https://zdp.lorrrem.ru/",
+    "Slug": "zdp-zelenykh-design-plugin",
+    "Description": "33 навыка для Claude: собирают макеты в Figma по референсам и с дизайн-системой, создают UI-киты, проверяют иерархию и доступность, готовят спеки для разработки и тексты интерфейса.",
+    "AccessStatus": "открытый",
+    "Screenshot": "",
+    "ScreenshotSource": "",
+    "InfoSource": "user",
+    "Emoji": "🎨"
+  },
+  {
     "Resource": "OpenAI Platform",
     "Rubric": "ИИ",
     "Subrubric": "Текст и ассистенты",
