@@ -30,6 +30,7 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://ard.lorrrem.ru/dist/atomic-rd.css" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -63,9 +64,9 @@
       <main class="content">
         <header class="content-topbar">
           <section class="filters">
-            <label class="control control-search">
-              <span class="search-icon" aria-hidden="true">🔎</span>
-              <input id="search-input" type="search" placeholder="Поиск" />
+            <label class="lk-search">
+              <span class="lk-search__icon" aria-hidden="true">🔎</span>
+              <input id="search-input" class="field lk-search__input" type="search" placeholder="Поиск" />
             </label>
           </section>
 
@@ -92,5 +93,6 @@
     <script src="./catalog-data.js"></script>
     <script src="./dictionary-data.js"></script>
     <script src="./app.js"></script>
+    <script type="module" src="https://ard.lorrrem.ru/dist/atomic-rd.mjs"></script>
   </body>
 </html>
