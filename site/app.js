@@ -278,8 +278,8 @@ function renderRubrics() {
   sortedRubrics.forEach((rubric) => {
     const button = document.createElement("button");
     button.type = "button";
-    button.className = "rubric-button";
-    button.dataset.active = rubric === activeRubric ? "true" : "false";
+    button.className = "ard-rubrics__item";
+    button.setAttribute("aria-pressed", rubric === activeRubric ? "true" : "false");
     button.innerHTML = `<span>${rubric}</span><strong>${counts[rubric]}</strong>`;
     button.addEventListener("click", () => {
       searchInput.value = "";
@@ -290,8 +290,8 @@ function renderRubrics() {
 
   const dictButton = document.createElement("button");
   dictButton.type = "button";
-  dictButton.className = "rubric-button rubric-button--dict";
-  dictButton.dataset.active = activeRubric === DICT_MODE ? "true" : "false";
+  dictButton.className = "ard-rubrics__item ard-rubrics__item--divided";
+  dictButton.setAttribute("aria-pressed", activeRubric === DICT_MODE ? "true" : "false");
   dictButton.innerHTML = `<span>IT-словарь</span><strong>${dictData.length}</strong>`;
   dictButton.addEventListener("click", () => {
     searchInput.value = "";
@@ -300,27 +300,27 @@ function renderRubrics() {
   rubricNav.append(dictButton);
 
   const dsButton = document.createElement("a");
-  dsButton.className = "rubric-button rubric-button--blog";
+  dsButton.className = "ard-rubrics__item";
   dsButton.href = DESIGN_SYSTEMS_URL;
   dsButton.target = "_blank";
   dsButton.rel = "noreferrer";
-  dsButton.innerHTML = `<span>Каталог дизайн-систем</span><span class="rubric-button-icon">🏗️</span>`;
+  dsButton.innerHTML = `<span>Каталог дизайн-систем</span><span class="ard-emoji-badge ard-emoji-badge--sm">🏗️</span>`;
   rubricNav.append(dsButton);
 
   const blogButton = document.createElement("a");
-  blogButton.className = "rubric-button rubric-button--blog";
+  blogButton.className = "ard-rubrics__item";
   blogButton.href = BLOG_URL;
   blogButton.target = "_blank";
   blogButton.rel = "noreferrer";
-  blogButton.innerHTML = `<span>Блог о дизайне привычных вещей</span><span class="rubric-button-icon">📰</span>`;
+  blogButton.innerHTML = `<span>Блог о дизайне привычных вещей</span><span class="ard-emoji-badge ard-emoji-badge--sm">📰</span>`;
   rubricNav.append(blogButton);
 
   const digestButton = document.createElement("a");
-  digestButton.className = "rubric-button rubric-button--blog";
+  digestButton.className = "ard-rubrics__item";
   digestButton.href = DIGEST_URL;
   digestButton.target = "_blank";
   digestButton.rel = "noreferrer";
-  digestButton.innerHTML = `<span>Дизайн-дайджест</span><span class="rubric-button-icon">📣</span>`;
+  digestButton.innerHTML = `<span>Дизайн-дайджест</span><span class="ard-emoji-badge ard-emoji-badge--sm">📣</span>`;
   rubricNav.append(digestButton);
 }
 
@@ -442,9 +442,9 @@ function renderSubrubricTabs() {
 
   const allButton = document.createElement("button");
   allButton.type = "button";
-  allButton.className = "subtab-button";
-  allButton.dataset.active = activeSubrubric === "" ? "true" : "false";
-  allButton.innerHTML = `<span>${ALL_LABEL}</span><strong>${items.length}</strong>`;
+  allButton.className = "ard-chip ard-chip--filter";
+  allButton.setAttribute("aria-pressed", activeSubrubric === "" ? "true" : "false");
+  allButton.innerHTML = `<span>${ALL_LABEL}</span><strong class="ard-chip__count">${items.length}</strong>`;
   allButton.addEventListener("click", () => {
     activeSubrubric = "";
     renderSubrubricTabs();
@@ -455,9 +455,9 @@ function renderSubrubricTabs() {
   values.forEach((value) => {
     const button = document.createElement("button");
     button.type = "button";
-    button.className = "subtab-button";
-    button.dataset.active = value === activeSubrubric ? "true" : "false";
-    button.innerHTML = `<span>${value}</span><strong>${counts[value] || 0}</strong>`;
+    button.className = "ard-chip ard-chip--filter";
+    button.setAttribute("aria-pressed", value === activeSubrubric ? "true" : "false");
+    button.innerHTML = `<span>${value}</span><strong class="ard-chip__count">${counts[value] || 0}</strong>`;
     button.addEventListener("click", () => {
       activeSubrubric = value;
       renderSubrubricTabs();
@@ -479,17 +479,17 @@ function filterItems() {
 function createCard(item) {
   const node = template.content.firstElementChild.cloneNode(true);
   node.href = item.Link;
-  const cover = node.querySelector(".card-cover");
-  const emoji = node.querySelector(".emoji-badge");
-  const meta = node.querySelector(".card-meta");
+  const cover = node.querySelector(".ard-resource-card__cover");
+  const emoji = node.querySelector(".ard-emoji-badge");
+  const meta = node.querySelector(".ard-resource-card__meta");
 
   cover.hidden = true;
   emoji.hidden = false;
   emoji.textContent = emojiForItem(item);
 
-  node.querySelector(".card-title").textContent = item.Resource;
+  node.querySelector(".ard-resource-card__title").textContent = item.Resource;
   meta.hidden = true;
-  node.querySelector(".card-description").textContent = item.Description || "Описание пока не заполнено.";
+  node.querySelector(".ard-resource-card__desc").textContent = item.Description || "Описание пока не заполнено.";
   return node;
 }
 
@@ -583,38 +583,33 @@ function renderDict() {
 
     entries.forEach((entry) => {
       const row = document.createElement("div");
-      row.className = "dict-term";
+      row.className = "ard-term";
       row.id = `dict-${entry.id}`;
 
       const termEl = document.createElement("div");
-      termEl.className = "dict-term-header";
+      termEl.className = "ard-term__header";
 
       const title = document.createElement("span");
-      title.className = "dict-term-title";
+      title.className = "ard-term__title";
       title.textContent = entry.term;
 
       const shareBtn = document.createElement("button");
       shareBtn.type = "button";
-      shareBtn.className = "dict-share-btn";
+      shareBtn.className = "ard-share-btn";
       shareBtn.title = "Скопировать ссылку";
-      shareBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>`;
-      shareBtn.addEventListener("click", () => {
-        copyDictLink(entry.id);
-        shareBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>`;
-        setTimeout(() => { shareBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>`; }, 1500);
-      });
+      shareBtn.dataset.copy = `${location.origin}${location.pathname}#dict-${entry.id}`;
 
       termEl.append(title, shareBtn);
 
       const def = document.createElement("p");
-      def.className = "dict-term-def";
+      def.className = "ard-term__def";
       const defText = entry.definition;
       const capped = defText.charAt(0).toUpperCase() + defText.slice(1);
       const srcMatch = capped.match(/^([\s\S]*?)\s*Источник:\s*(\S+)\s*$/);
       if (srcMatch) {
         def.textContent = srcMatch[1];
         const srcLink = document.createElement("a");
-        srcLink.className = "dict-source";
+        srcLink.className = "ard-term__source";
         srcLink.href = /^https?:\/\//.test(srcMatch[2]) ? srcMatch[2] : "https://" + srcMatch[2];
         srcLink.target = "_blank";
         srcLink.rel = "noopener noreferrer";
@@ -640,9 +635,9 @@ function renderDictLetterTabs() {
   const letters = getDictLetters();
   const allBtn = document.createElement("button");
   allBtn.type = "button";
-  allBtn.className = "subtab-button";
-  allBtn.dataset.active = activeDictLetter === "" && !searchInput.value.trim() ? "true" : "false";
-  allBtn.innerHTML = `<span>Все</span><strong>${dictData.length}</strong>`;
+  allBtn.className = "ard-chip ard-chip--filter";
+  allBtn.setAttribute("aria-pressed", activeDictLetter === "" && !searchInput.value.trim() ? "true" : "false");
+  allBtn.innerHTML = `<span>Все</span><strong class="ard-chip__count">${dictData.length}</strong>`;
   allBtn.addEventListener("click", () => {
     searchInput.value = "";
     activeDictLetter = "";
@@ -655,10 +650,9 @@ function renderDictLetterTabs() {
     const count = dictData.filter((e) => e.letter === letter).length;
     const btn = document.createElement("button");
     btn.type = "button";
-    btn.className = "subtab-button";
-    btn.dataset.active =
-      letter === activeDictLetter && !searchInput.value.trim() ? "true" : "false";
-    btn.innerHTML = `<span>${letter}</span><strong>${count}</strong>`;
+    btn.className = "ard-chip ard-chip--filter";
+    btn.setAttribute("aria-pressed", letter === activeDictLetter && !searchInput.value.trim() ? "true" : "false");
+    btn.innerHTML = `<span>${letter}</span><strong class="ard-chip__count">${count}</strong>`;
     btn.addEventListener("click", () => {
       searchInput.value = "";
       activeDictLetter = letter;
@@ -699,13 +693,13 @@ function highlightDictTerm(id) {
   if (!el) return;
 
   document
-    .querySelectorAll(".dict-term--highlight")
-    .forEach((node) => node.classList.remove("dict-term--highlight"));
+    .querySelectorAll(".ard-term--highlight")
+    .forEach((node) => node.classList.remove("ard-term--highlight"));
 
   el.scrollIntoView({ behavior: "smooth", block: "center" });
   // restart the animation if the same term is targeted again
   void el.offsetWidth;
-  el.classList.add("dict-term--highlight");
+  el.classList.add("ard-term--highlight");
 }
 
 function openDictHash(hash) {
@@ -766,7 +760,7 @@ function setupMobileMenu() {
   });
   // Close the sheet once a section is chosen
   sidebar.addEventListener("click", (e) => {
-    if (e.target.closest(".rubric-button")) setOpen(false);
+    if (e.target.closest(".ard-rubrics__item")) setOpen(false);
   });
 }
 
